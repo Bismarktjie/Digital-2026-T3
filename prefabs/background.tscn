@@ -1,0 +1,78 @@
+[gd_scene format=3 uid="uid://doitikpae2r5q"]
+
+[ext_resource type="Texture2D" uid="uid://daoexdbbci3hp" path="res://Parallax Cave/1.png" id="1_0enms"]
+[ext_resource type="Texture2D" uid="uid://cwkv8p07papis" path="res://Parallax Cave/2.png" id="2_ksogo"]
+[ext_resource type="Texture2D" uid="uid://f4qweuo50iad" path="res://Parallax Cave/4.png" id="3_s57dx"]
+[ext_resource type="Texture2D" uid="uid://xida55gt63uu" path="res://Parallax Cave/5.png" id="4_xgw1o"]
+[ext_resource type="Texture2D" uid="uid://bia8dfvx53m0f" path="res://Parallax Cave/7.png" id="5_prqy6"]
+[ext_resource type="Texture2D" uid="uid://mientufga6bp" path="res://Parallax Cave/9.png" id="6_e1p4w"]
+
+[node name="Background" type="Node2D" unique_id=1827103222]
+
+[node name="bg1" type="Parallax2D" parent="." unique_id=1108538310]
+z_index = -10
+scroll_scale = Vector2(0.5, 0)
+repeat_size = Vector2(2496, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="bg1" unique_id=844442680]
+visibility_layer = 2
+scale = Vector2(1.3, 0.6)
+texture = ExtResource("1_0enms")
+centered = false
+
+[node name="bg2" type="Parallax2D" parent="." unique_id=482771423]
+z_index = -10
+scroll_scale = Vector2(1, 0)
+repeat_size = Vector2(2496, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="bg2" unique_id=608602770]
+light_mask = 4
+scale = Vector2(1.3, 0.6)
+texture = ExtResource("2_ksogo")
+centered = false
+
+[node name="bg3" type="Parallax2D" parent="." unique_id=1062058405]
+z_index = -10
+scroll_scale = Vector2(0.7, 0)
+repeat_size = Vector2(2496, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="bg3" unique_id=267438476]
+light_mask = 8
+position = Vector2(0, 2.3841858e-07)
+scale = Vector2(1.3, 0.6)
+texture = ExtResource("3_s57dx")
+centered = false
+
+[node name="bg4" type="Parallax2D" parent="." unique_id=1977969858]
+z_index = -10
+scroll_scale = Vector2(0.8, 0)
+repeat_size = Vector2(2496, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="bg4" unique_id=652553099]
+light_mask = 16
+scale = Vector2(1.3, 0.6)
+texture = ExtResource("4_xgw1o")
+centered = false
+
+[node name="bg5" type="Parallax2D" parent="." unique_id=1922446430]
+z_index = -10
+scroll_scale = Vector2(0.9, 0)
+repeat_size = Vector2(2496, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="bg5" unique_id=1728201849]
+light_mask = 32
+position = Vector2(0, 1.1920929e-07)
+scale = Vector2(1.3, 0.6)
+texture = ExtResource("5_prqy6")
+centered = false
+
+[node name="bg6" type="Parallax2D" parent="." unique_id=422551413]
+z_index = -10
+scroll_scale = Vector2(1, 0)
+repeat_size = Vector2(2496, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="bg6" unique_id=1507492620]
+light_mask = 64
+scale = Vector2(1.3, 0.6)
+texture = ExtResource("6_e1p4w")
+centered = false

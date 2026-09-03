@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://5mpnu40r22o2"]
+
+[ext_resource type="Texture2D" uid="uid://bvxhcfvqqjirb" path="res://Tiny RPG Character Asset Pack 02 v1.01-Free Demon_A&Blood Monster_A/Tiny RPG Character Asset Pack 02 -Free Demon_A&Blood Monster_A/Flying Demon 2D Pixel Art/Sprites/tile000.png" id="1_o46n8"]
+[ext_resource type="Script" uid="uid://3t3e3110bxfi" path="res://small_bat.gd" id="1_yw3ix"]
+[ext_resource type="Texture2D" uid="uid://7efoc50yb36p" path="res://Tiny RPG Character Asset Pack 02 v1.01-Free Demon_A&Blood Monster_A/Tiny RPG Character Asset Pack 02 -Free Demon_A&Blood Monster_A/Flying Demon 2D Pixel Art/Sprites/tile001.png" id="2_jral0"]
+[ext_resource type="Texture2D" uid="uid://k7ui6utwbrgt" path="res://Tiny RPG Character Asset Pack 02 v1.01-Free Demon_A&Blood Monster_A/Tiny RPG Character Asset Pack 02 -Free Demon_A&Blood Monster_A/Flying Demon 2D Pixel Art/Sprites/tile002.png" id="3_mpl22"]
+[ext_resource type="Texture2D" uid="uid://dcnjolx8r0j4" path="res://Tiny RPG Character Asset Pack 02 v1.01-Free Demon_A&Blood Monster_A/Tiny RPG Character Asset Pack 02 -Free Demon_A&Blood Monster_A/Flying Demon 2D Pixel Art/Sprites/tile003.png" id="4_yasyp"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jral0"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_o46n8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_jral0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_mpl22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_yasyp")
+}],
+"loop": true,
+"name": &"default",
+"speed": 8.0
+}]
+
+[node name="small bat v1" type="CharacterBody2D" unique_id=42938439]
+script = ExtResource("1_yw3ix")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=787834228]
+position = Vector2(-3.000002, -1.5000021)
+scale = Vector2(2.4, 2.0500002)
+polygon = PackedVector2Array(-4.999999, -9.024388, -7.499999, -5.6097546, -5.416666, -0.73170614, -7.499999, -1.7073159, -7.916665, 1.707318, -6.249999, 3.6585371, -6.666666, 6.097562, -3.3333323, 8.536586, 1.2500007, 8.536586, 8.333334, 9.02439, 10.000001, 4.1463423, 8.750001, 4.1463423, 5.416667, 7.0731707, 7.083334, 1.707318, 4.583334, -2.6829255, 2.9166675, -7.0731688, 1.2500007, -9.024388)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2139574700]
+position = Vector2(-1, -1)
+scale = Vector2(0.58719134, 0.58010566)
+sprite_frames = SubResource("SpriteFrames_jral0")
+frame_progress = 0.28111926
+
+[connection signal="child_entered_tree" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_child_entered_tree"]

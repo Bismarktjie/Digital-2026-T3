@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://cnen8vt3tuw4p"]
+
+[ext_resource type="Texture2D" uid="uid://bejks777kvfy7" path="res://pixilart-drawing (3).png" id="1_i6mhh"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ier2g"]
+size = Vector2(31, 16)
+
+[node name="bullet" type="Node2D" unique_id=566404619]
+position = Vector2(4, 4)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1051867315]
+position = Vector2(-3, -2)
+shape = SubResource("RectangleShape2D_ier2g")
+debug_color = Color(0.4450547, 0.5978917, 0, 0.41960785)
+
+[node name="Area2D" type="Area2D" parent="CollisionShape2D" unique_id=115185292]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1133658151]
+texture = ExtResource("1_i6mhh")

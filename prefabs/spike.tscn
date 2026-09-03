@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://cm02j1r17ymi5"]
+
+[ext_resource type="Script" uid="uid://b1gvmbshiulwu" path="res://Script V1/spike_v_1.gd" id="1_r3xco"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_i4d64"]
+load_path = "res://.godot/imported/download.jpg-50b81f58c54b10518d62dc3618ffefd0.ctex"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0xh8k"]
+size = Vector2(64, 64)
+
+[node name="spike" type="Area2D" unique_id=505807291]
+script = ExtResource("1_r3xco")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=769245770]
+position = Vector2(-8.34465e-06, 7.867813e-06)
+scale = Vector2(0.2844444, 0.2844445)
+texture = SubResource("CompressedTexture2D_i4d64")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1944711469]
+shape = SubResource("RectangleShape2D_0xh8k")
+debug_color = Color(0.99, 0, 0, 0.41960785)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
