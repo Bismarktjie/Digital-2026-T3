@@ -1,11 +1,11 @@
 [gd_scene format=3 uid="uid://doitikpae2r5q"]
 
-[ext_resource type="Texture2D" uid="uid://daoexdbbci3hp" path="res://Parallax Cave/1.png" id="1_0enms"]
-[ext_resource type="Texture2D" uid="uid://cwkv8p07papis" path="res://Parallax Cave/2.png" id="2_ksogo"]
-[ext_resource type="Texture2D" uid="uid://f4qweuo50iad" path="res://Parallax Cave/4.png" id="3_s57dx"]
-[ext_resource type="Texture2D" uid="uid://xida55gt63uu" path="res://Parallax Cave/5.png" id="4_xgw1o"]
-[ext_resource type="Texture2D" uid="uid://bia8dfvx53m0f" path="res://Parallax Cave/7.png" id="5_prqy6"]
-[ext_resource type="Texture2D" uid="uid://mientufga6bp" path="res://Parallax Cave/9.png" id="6_e1p4w"]
+[ext_resource type="Texture2D" uid="uid://daoexdbbci3hp" path="res://Textures/Parallax Cave/1.png" id="1_0enms"]
+[ext_resource type="Texture2D" uid="uid://cwkv8p07papis" path="res://Textures/Parallax Cave/2.png" id="2_ksogo"]
+[ext_resource type="Texture2D" uid="uid://f4qweuo50iad" path="res://Textures/Parallax Cave/4.png" id="3_s57dx"]
+[ext_resource type="Texture2D" uid="uid://xida55gt63uu" path="res://Textures/Parallax Cave/5.png" id="4_xgw1o"]
+[ext_resource type="Texture2D" uid="uid://bia8dfvx53m0f" path="res://Textures/Parallax Cave/7.png" id="5_prqy6"]
+[ext_resource type="Texture2D" uid="uid://mientufga6bp" path="res://Textures/Parallax Cave/9.png" id="6_e1p4w"]
 
 [node name="Background" type="Node2D" unique_id=1827103222]
 

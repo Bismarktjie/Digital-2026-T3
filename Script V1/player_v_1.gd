@@ -1,56 +1,61 @@
 extends CharacterBody2D
 
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
+@onready var camera = $Camera2D
+@onready var background = $"../Background" # Fixed node reference
+
 const SPEED = 400.0
 const JUMP_VELOCITY = -450.0
-var start_position = Vector2(96,160)
-@onready var camera = $Camera2D
-@onready var background = "../Background"
+var start_position = Vector2(96, 160)
+
+var attacking = false
+var can_attack = true
 
 func _physics_process(delta: float) -> void:
-	# Add the gravity.
+	# Add gravity
 	if not is_on_floor():
 		velocity += get_gravity() * delta
-		
-	#handle run
-	if is_on_floor():
-		if velocity.x > 1 or velocity.x < -1:
-			animated_sprite_2d.play("run")
-		elif Input.is_action_just_pressed("attack_3"):
-			animated_sprite_2d.play("attack_3")
-		else:
-			animated_sprite_2d.play("idle")
 
-	# Handle jump.
+	# Handle attack input
+	if Input.is_action_just_pressed("attack_3") and not attacking and can_attack:
+		attacking = true
+		can_attack = false
+		animated_sprite_2d.play("attack_3")
+		$attacking.start()
+		$attack_again.start()
+
+	# Handle jump
 	if Input.is_action_just_pressed("jump") and is_on_floor():
-		animated_sprite_2d.play("jump")
 		velocity.y = JUMP_VELOCITY
-	#if Input.is_action_just_pressed("attack") and is_on_floor():
-		#animated_sprite_2d.pause()
-		#animated_sprite_2d.play("attack_3")
 
-	# Get the input direction and handle the movement/deceleration.
-	# As good practice, you should replace UI actions with custom gameplay actions.
+	# Handle movement
 	var direction := Input.get_axis("left", "right")
 	if direction:
 		velocity.x = direction * SPEED
+		animated_sprite_2d.flip_h = (direction < 0)
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
-		
-		
-	move_and_slide()
-	if direction == 1.0:
-		animated_sprite_2d.flip_h = false
-	elif direction == -1.0:
-		animated_sprite_2d.flip_h = true
-	
-	#background.position = camera.position
 
+	# Handle ground animations (only play when not attacking)
+	if not attacking:
+		if not is_on_floor():
+			animated_sprite_2d.play("jump")
+		elif abs(velocity.x) > 1:
+			animated_sprite_2d.play("run")
+		else:
+			animated_sprite_2d.play("idle")
+
+	move_and_slide()
 
 	if position.y > 30000:
 		respawn()
 
-
 func respawn():
-	position = start_position 
-	
+	position = start_position
+
+# Signal callbacks connected to $attack_timer and $attack_again_timer
+func _on_attack_timer_timeout() -> void:
+	attacking = false
+
+func _on_attack_again_timer_timeout() -> void:
+	can_attack = true

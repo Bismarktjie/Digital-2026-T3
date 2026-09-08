@@ -1,10 +1,10 @@
 [gd_scene format=3 uid="uid://5mpnu40r22o2"]
 
-[ext_resource type="Texture2D" uid="uid://bvxhcfvqqjirb" path="res://Tiny RPG Character Asset Pack 02 v1.01-Free Demon_A&Blood Monster_A/Tiny RPG Character Asset Pack 02 -Free Demon_A&Blood Monster_A/Flying Demon 2D Pixel Art/Sprites/tile000.png" id="1_o46n8"]
+[ext_resource type="Texture2D" uid="uid://bvxhcfvqqjirb" path="res://Textures/Sprites/tile000.png" id="1_o46n8"]
 [ext_resource type="Script" uid="uid://3t3e3110bxfi" path="res://small_bat.gd" id="1_yw3ix"]
-[ext_resource type="Texture2D" uid="uid://7efoc50yb36p" path="res://Tiny RPG Character Asset Pack 02 v1.01-Free Demon_A&Blood Monster_A/Tiny RPG Character Asset Pack 02 -Free Demon_A&Blood Monster_A/Flying Demon 2D Pixel Art/Sprites/tile001.png" id="2_jral0"]
-[ext_resource type="Texture2D" uid="uid://k7ui6utwbrgt" path="res://Tiny RPG Character Asset Pack 02 v1.01-Free Demon_A&Blood Monster_A/Tiny RPG Character Asset Pack 02 -Free Demon_A&Blood Monster_A/Flying Demon 2D Pixel Art/Sprites/tile002.png" id="3_mpl22"]
-[ext_resource type="Texture2D" uid="uid://dcnjolx8r0j4" path="res://Tiny RPG Character Asset Pack 02 v1.01-Free Demon_A&Blood Monster_A/Tiny RPG Character Asset Pack 02 -Free Demon_A&Blood Monster_A/Flying Demon 2D Pixel Art/Sprites/tile003.png" id="4_yasyp"]
+[ext_resource type="Texture2D" uid="uid://7efoc50yb36p" path="res://Textures/Sprites/tile001.png" id="2_jral0"]
+[ext_resource type="Texture2D" uid="uid://k7ui6utwbrgt" path="res://Textures/Sprites/tile002.png" id="3_mpl22"]
+[ext_resource type="Texture2D" uid="uid://dcnjolx8r0j4" path="res://Textures/Sprites/tile003.png" id="4_yasyp"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_jral0"]
 animations = [{

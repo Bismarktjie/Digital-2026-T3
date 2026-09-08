@@ -198,6 +198,24 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+"texture": SubResource("AtlasTexture_gf0v6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cv2ms")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g56qp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_axxvs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ay5dx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5loxu")
+}, {
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_sh7kr")
 }, {
 "duration": 1.0,
@@ -211,6 +229,24 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_r1s2y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0anbp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e3k5d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2v6jp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dwbmn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3or85")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gxohq")
 }],
 "loop": true,
 "name": &"attack_2",
@@ -237,7 +273,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"attack_3",
-"speed": 5.0
+"speed": 6.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -326,7 +362,8 @@ script = ExtResource("1_4dohe")
 position = Vector2(2.2737368e-13, -60)
 scale = Vector2(3.7916667, 4.75)
 sprite_frames = SubResource("SpriteFrames_opo22")
-animation = &"idle"
+animation = &"attack_3"
+frame_progress = 0.9799742
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=59312089]
 position = Vector2(0, -46)
@@ -337,3 +374,10 @@ debug_color = Color(0, 0.57254905, 0.81960785, 0.41960785)
 position = Vector2(-6, -84)
 position_smoothing_enabled = true
 rotation_smoothing_enabled = true
+
+[node name="attacking" type="Timer" parent="." unique_id=266624141]
+
+[node name="attack_again" type="Timer" parent="." unique_id=990044876]
+
+[connection signal="timeout" from="attacking" to="." method="_on_attacking_timeout"]
+[connection signal="timeout" from="attack_again" to="." method="_on_attack_again_timeout"]

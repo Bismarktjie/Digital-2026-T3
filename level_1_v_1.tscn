@@ -1,13 +1,13 @@
 [gd_scene format=3 uid="uid://dpjdabnxnnb2b"]
 
 [ext_resource type="PackedScene" uid="uid://b85i6f1und8lr" path="res://prefabs/player.tscn" id="1_134sd"]
-[ext_resource type="Texture2D" uid="uid://mmnawxvxrneq" path="res://Script V1/pixilart-drawing (5).png" id="3_134sd"]
+[ext_resource type="Texture2D" uid="uid://mmnawxvxrneq" path="res://Textures/pixilart-drawing (5).png" id="3_134sd"]
 [ext_resource type="PackedScene" uid="uid://doitikpae2r5q" path="res://prefabs/background.tscn" id="4_fmm8o"]
 [ext_resource type="Script" uid="uid://b1gvmbshiulwu" path="res://Script V1/spike_v_1.gd" id="4_oosxx"]
 [ext_resource type="Script" uid="uid://dytmxn83bi1sp" path="res://Script V1/area_2d.gd" id="6_0rof7"]
-[ext_resource type="Texture2D" uid="uid://dao4xhlieme43" path="res://Script V1/pixilart-drawing (3).png" id="6_0xh8k"]
+[ext_resource type="Texture2D" uid="uid://dao4xhlieme43" path="res://Textures/pixilart-drawing (3).png" id="6_0xh8k"]
 [ext_resource type="PackedScene" uid="uid://5mpnu40r22o2" path="res://small_bat.tscn" id="8_0rof7"]
-[ext_resource type="Texture2D" uid="uid://c7k3nyeb5rmhx" path="res://Script V1/pixilart-drawing (4).png" id="13_mgveq"]
+[ext_resource type="Texture2D" uid="uid://c7k3nyeb5rmhx" path="res://Textures/pixilart-drawing (4).png" id="13_mgveq"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_nbgnd"]
 size = Vector2(141.33295, 115.99997)
@@ -2258,15 +2258,15 @@ rotation = -0.30892327
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Spike V77" unique_id=338420026]
+position = Vector2(-11.666504, -32)
+scale = Vector2(4.583979, 5.018649)
+polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
+
 [node name="Sprite2D" type="Sprite2D" parent="Spike V77" unique_id=1304906304]
 position = Vector2(-9.862308, -33.86223)
 scale = Vector2(2.2586126, 3.0086105)
 texture = ExtResource("6_0xh8k")
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Spike V77" unique_id=338420026]
-position = Vector2(-11.666683, -31.999975)
-scale = Vector2(4.5839796, 5.0186496)
-polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Sprite2D2" type="Sprite2D" parent="Spike V77" unique_id=824593303]
 position = Vector2(3975.7031, 2057.796)
@@ -4392,7 +4392,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Platform V21" type="StaticBody2D" parent="." unique_id=1190408831]
-position = Vector2(19542, 712)
+position = Vector2(19498, 717)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -10482,32 +10482,89 @@ position = Vector2(-6.092046, -22.699984)
 scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
-[node name="small bat" parent="." unique_id=1168046116 instance=ExtResource("8_0rof7")]
-position = Vector2(2802, 223)
-scale = Vector2(1.5, 1.5)
+[node name="small bat v1" parent="." unique_id=42938439 instance=ExtResource("8_0rof7")]
+position = Vector2(2803, 236)
+scale = Vector2(2, 2)
 
-[node name="small bat2" parent="." unique_id=1093040349 instance=ExtResource("8_0rof7")]
-position = Vector2(4399, 361)
+[node name="small bat v2" parent="." unique_id=1129747249 instance=ExtResource("8_0rof7")]
+position = Vector2(3805, 396)
+scale = Vector2(2, 2)
 
-[node name="small bat3" parent="." unique_id=1823760449 instance=ExtResource("8_0rof7")]
-position = Vector2(7492, 1170)
-scale = Vector2(1.3, 1.3)
+[node name="small bat v3" parent="." unique_id=254861721 instance=ExtResource("8_0rof7")]
+position = Vector2(5169, 411)
+scale = Vector2(2, 2)
 
-[node name="small bat4" parent="." unique_id=466970340 instance=ExtResource("8_0rof7")]
-position = Vector2(1799, 194)
-scale = Vector2(2.4, 2.4)
+[node name="small bat v4" parent="." unique_id=1088403279 instance=ExtResource("8_0rof7")]
+position = Vector2(5918, 753)
+scale = Vector2(2, 2)
 
-[node name="small bat5" parent="." unique_id=1744051962 instance=ExtResource("8_0rof7")]
-position = Vector2(11197, 1516)
-scale = Vector2(2.9, 2.9)
+[node name="small bat v5" parent="." unique_id=334862152 instance=ExtResource("8_0rof7")]
+position = Vector2(7665, 1296)
+scale = Vector2(2, 2)
 
-[node name="small bat6" parent="." unique_id=1136671383 instance=ExtResource("8_0rof7")]
-position = Vector2(15966, 821)
-scale = Vector2(2.4, 2.4)
+[node name="small bat v6" parent="." unique_id=443377000 instance=ExtResource("8_0rof7")]
+position = Vector2(9676, 1581)
+scale = Vector2(2, 2)
 
-[node name="small bat7" parent="." unique_id=181052397 instance=ExtResource("8_0rof7")]
-position = Vector2(17467, 624)
-scale = Vector2(3, 3)
+[node name="small bat v7" parent="." unique_id=1282019225 instance=ExtResource("8_0rof7")]
+position = Vector2(15990, 810)
+scale = Vector2(2, 2)
+
+[node name="small bat v8" parent="." unique_id=1892698682 instance=ExtResource("8_0rof7")]
+position = Vector2(17461, 631)
+scale = Vector2(2, 2)
+
+[node name="small bat v9" parent="." unique_id=376949988 instance=ExtResource("8_0rof7")]
+position = Vector2(21349, 452)
+scale = Vector2(2, 2)
+
+[node name="small bat v10" parent="." unique_id=212430699 instance=ExtResource("8_0rof7")]
+position = Vector2(25742, -222)
+scale = Vector2(2, 2)
+
+[node name="small bat v11" parent="." unique_id=2139400223 instance=ExtResource("8_0rof7")]
+position = Vector2(28412, -483)
+scale = Vector2(2, 2)
+
+[node name="small bat v12" parent="." unique_id=1892459546 instance=ExtResource("8_0rof7")]
+position = Vector2(31291, -905)
+scale = Vector2(2, 2)
+
+[node name="small bat v13" parent="." unique_id=603054567 instance=ExtResource("8_0rof7")]
+position = Vector2(33071, -1004)
+scale = Vector2(2, 2)
+
+[node name="small bat v14" parent="." unique_id=2070253258 instance=ExtResource("8_0rof7")]
+position = Vector2(35273, -1174)
+scale = Vector2(2, 2)
+
+[node name="small bat v15" parent="." unique_id=1517834135 instance=ExtResource("8_0rof7")]
+position = Vector2(37296, -1381)
+scale = Vector2(2, 2)
+
+[node name="small bat v16" parent="." unique_id=816448276 instance=ExtResource("8_0rof7")]
+position = Vector2(40243, -1127)
+scale = Vector2(2, 2)
+
+[node name="small bat v17" parent="." unique_id=1015102847 instance=ExtResource("8_0rof7")]
+position = Vector2(41846, -876)
+scale = Vector2(2, 2)
+
+[node name="small bat v18" parent="." unique_id=1448524909 instance=ExtResource("8_0rof7")]
+position = Vector2(44189, -713)
+scale = Vector2(2, 2)
+
+[node name="small bat v19" parent="." unique_id=251093249 instance=ExtResource("8_0rof7")]
+position = Vector2(45814, -615)
+scale = Vector2(2, 2)
+
+[node name="small bat v20" parent="." unique_id=243702548 instance=ExtResource("8_0rof7")]
+position = Vector2(47727, -337)
+scale = Vector2(2, 2)
+
+[node name="small bat v21" parent="." unique_id=1903537202 instance=ExtResource("8_0rof7")]
+position = Vector2(49267, -81)
+scale = Vector2(2, 2)
 
 [connection signal="body_entered" from="Spike V21" to="Spike V21" method="_on_body_entered"]
 [connection signal="body_entered" from="Spike V22" to="Spike V22" method="_on_body_entered"]
