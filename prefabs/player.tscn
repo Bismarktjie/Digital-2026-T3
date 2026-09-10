@@ -80,10 +80,6 @@ region = Rect2(480, 0, 96, 84)
 atlas = ExtResource("2_4dohe")
 region = Rect2(0, 0, 96, 84)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_1txc5"]
-atlas = ExtResource("2_4dohe")
-region = Rect2(96, 0, 96, 84)
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_ht1c8"]
 atlas = ExtResource("2_4dohe")
 region = Rect2(192, 0, 96, 84)
@@ -99,6 +95,10 @@ region = Rect2(384, 0, 96, 84)
 [sub_resource type="AtlasTexture" id="AtlasTexture_kbsxf"]
 atlas = ExtResource("2_4dohe")
 region = Rect2(480, 0, 96, 84)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1txc5"]
+atlas = ExtResource("2_4dohe")
+region = Rect2(96, 0, 96, 84)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rgeog"]
 atlas = ExtResource("2_4dohe")
@@ -192,7 +192,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_r1s2y")
 }],
-"loop": true,
+"loop": false,
 "name": &"attack",
 "speed": 8.0
 }, {
@@ -248,7 +248,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_gxohq")
 }],
-"loop": true,
+"loop": false,
 "name": &"attack_2",
 "speed": 8.0
 }, {
@@ -271,16 +271,13 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_gxohq")
 }],
-"loop": true,
+"loop": false,
 "name": &"attack_3",
-"speed": 6.0
+"speed": 8.0
 }, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_r66lb")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_1txc5")
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ht1c8")
@@ -293,6 +290,9 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_kbsxf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1txc5")
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_rgeog")
@@ -317,7 +317,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_llb5v")
 }],
-"loop": true,
+"loop": false,
 "name": &"jump",
 "speed": 4.0
 }, {
@@ -346,7 +346,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_nmymu")
 }],
-"loop": true,
+"loop": false,
 "name": &"run",
 "speed": 10.0
 }]
@@ -363,7 +363,9 @@ position = Vector2(2.2737368e-13, -60)
 scale = Vector2(3.7916667, 4.75)
 sprite_frames = SubResource("SpriteFrames_opo22")
 animation = &"attack_3"
-frame_progress = 0.9799742
+autoplay = "idle"
+frame = 5
+frame_progress = 1.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=59312089]
 position = Vector2(0, -46)
@@ -376,8 +378,11 @@ position_smoothing_enabled = true
 rotation_smoothing_enabled = true
 
 [node name="attacking" type="Timer" parent="." unique_id=266624141]
+one_shot = true
 
 [node name="attack_again" type="Timer" parent="." unique_id=990044876]
+wait_time = 1.5
 
+[connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
 [connection signal="timeout" from="attacking" to="." method="_on_attacking_timeout"]
 [connection signal="timeout" from="attack_again" to="." method="_on_attack_again_timeout"]
