@@ -354,6 +354,9 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_e74cb"]
 size = Vector2(69, 150.75)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_u51tk"]
+size = Vector2(80, 206)
+
 [node name="player" type="CharacterBody2D" unique_id=483559747]
 scale = Vector2(0.5, 0.5)
 script = ExtResource("1_4dohe")
@@ -383,6 +386,15 @@ one_shot = true
 [node name="attack_again" type="Timer" parent="." unique_id=990044876]
 wait_time = 1.5
 
+[node name="attacking_col2" type="Area2D" parent="." unique_id=54115888]
+
+[node name="attacking_col" type="CollisionShape2D" parent="attacking_col2" unique_id=2112718461]
+position = Vector2(76, -73)
+shape = SubResource("RectangleShape2D_u51tk")
+disabled = true
+debug_color = Color(0.88235515, 0.2995152, 0.40420032, 0.41960785)
+
 [connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
 [connection signal="timeout" from="attacking" to="." method="_on_attacking_timeout"]
 [connection signal="timeout" from="attack_again" to="." method="_on_attack_again_timeout"]
+[connection signal="body_entered" from="attacking_col2" to="." method="_on_area_2d_body_entered"]

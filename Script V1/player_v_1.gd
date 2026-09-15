@@ -3,6 +3,8 @@ extends CharacterBody2D
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 @onready var camera = $Camera2D
 @onready var background = $"../Background" # Fixed node reference
+@onready var attacking_col = $attacking_col2/attacking_col
+@onready var attack_col_pos = attacking_col.position.x
 
 const SPEED = 400.0
 const JUMP_VELOCITY = -450.0
@@ -11,6 +13,8 @@ var start_position = Vector2(96, 160)
 var attacking = false
 var can_attack = true
 
+
+
 func _physics_process(delta: float) -> void:
 	# Add gravity
 	if not is_on_floor():
@@ -18,11 +22,13 @@ func _physics_process(delta: float) -> void:
 
 	# Handle attack input
 	if Input.is_action_just_pressed("attack_3") and not attacking and can_attack:
+		attacking_col.disabled = false
 		attacking = true
 		#can_attack = false
 		animated_sprite_2d.play("attack_3")
 		$attacking.start()
 		#$attack_again.start()
+		attacking_col.disabled = true
 
 	# Handle jump
 	if Input.is_action_just_pressed("jump") and is_on_floor():
@@ -34,6 +40,11 @@ func _physics_process(delta: float) -> void:
 	if direction:
 		velocity.x = direction * SPEED
 		animated_sprite_2d.flip_h = (direction < 0)
+		if direction < 0:
+			attacking_col.position.x = -attack_col_pos #change position of attacking collision box
+		else:
+			attacking_col.position.x = attack_col_pos
+		
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 
@@ -75,3 +86,8 @@ func _on_attack_again_timer_timeout() -> void:
 
 func _on_attacking_timeout() -> void:
 	attacking = false # Replace with function body.
+
+
+func _on_area_2d_body_entered(body: Node2D) -> void:
+	if body is Small_Bat:
+		print("bat") # Replace with function body.
