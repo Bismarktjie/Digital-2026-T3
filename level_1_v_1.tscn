@@ -63,7 +63,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Portal" type="Node2D" parent="." unique_id=2018786076]
-position = Vector2(595, -1978)
+position = Vector2(208, -1720)
 
 [node name="Sprite2D" type="Sprite2D" parent="Portal" unique_id=1380620296]
 
@@ -258,7 +258,7 @@ position = Vector2(-7.666668, 0)
 shape = SubResource("RectangleShape2D_nbgnd")
 
 [node name="Platform V30" type="StaticBody2D" parent="." unique_id=1008145346]
-position = Vector2(5027, 586)
+position = Vector2(5029, 682.0002)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -272,7 +272,7 @@ position = Vector2(-7.666668, 0)
 shape = SubResource("RectangleShape2D_nbgnd")
 
 [node name="Platform V31" type="StaticBody2D" parent="." unique_id=1074424921]
-position = Vector2(4430, 531)
+position = Vector2(4437, 617)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -446,7 +446,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V39" type="Area2D" parent="." unique_id=1564903257]
-position = Vector2(4286, 516)
+position = Vector2(4293, 602)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -545,7 +545,7 @@ position = Vector2(-7.666668, 0)
 shape = SubResource("RectangleShape2D_nbgnd")
 
 [node name="Spike V40" type="Area2D" parent="." unique_id=1081297817]
-position = Vector2(5051, 584)
+position = Vector2(5053, 680.0002)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -560,7 +560,7 @@ scale = Vector2(7.0161705, 7.824214)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V41" type="Area2D" parent="." unique_id=1481251839]
-position = Vector2(5046, 569.9999)
+position = Vector2(5048, 666.00006)
 rotation = 0.62133723
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -576,7 +576,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V42" type="Area2D" parent="." unique_id=28557076]
-position = Vector2(5002, 569.9998)
+position = Vector2(5004, 666)
 rotation = -0.49741885
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -688,7 +688,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V49" type="Area2D" parent="." unique_id=1393343361]
-position = Vector2(4306, 513)
+position = Vector2(4313, 599)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -752,7 +752,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V53" type="Area2D" parent="." unique_id=38688180]
-position = Vector2(4532, 513)
+position = Vector2(4539, 599)
 rotation = -0.49741885
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -768,7 +768,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V54" type="Area2D" parent="." unique_id=842230291]
-position = Vector2(4537.001, 525.0002)
+position = Vector2(4544.001, 611.0002)
 rotation = 0.37350047
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -4937,8 +4937,8 @@ position = Vector2(46, 10)
 shape = SubResource("RectangleShape2D_134sd")
 
 [node name="Platform V28" type="StaticBody2D" parent="." unique_id=1354435076]
-position = Vector2(67345, -145)
-scale = Vector2(3, 0.25)
+position = Vector2(51693, 433)
+scale = Vector2(8, 1)
 metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="Platform V28" unique_id=1019655968]
@@ -4999,8 +4999,7 @@ scale = Vector2(5.07028, 5.1971197)
 texture = ExtResource("13_mgveq")
 
 [node name="lava26" type="Area2D" parent="." unique_id=1547827725]
-position = Vector2(51658.996, 811.99976)
-rotation = 0.12217305
+position = Vector2(51453, 764)
 script = ExtResource("6_0rof7")
 metadata/_edit_group_ = true
 
@@ -5010,101 +5009,6 @@ shape = SubResource("RectangleShape2D_0rof7")
 debug_color = Color(0.89636517, 0.31728822, 0.0305251, 0.41960785)
 
 [node name="Sprite2D" type="Sprite2D" parent="lava26" unique_id=1387682375]
-position = Vector2(997.0156, 196.08383)
-scale = Vector2(5.07028, 5.1971197)
-texture = ExtResource("13_mgveq")
-
-[node name="lava27" type="Area2D" parent="." unique_id=1077643825]
-position = Vector2(54095.996, 1091)
-rotation = 0.05235988
-script = ExtResource("6_0rof7")
-metadata/_edit_group_ = true
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="lava27" unique_id=1243404034]
-position = Vector2(1027, 26)
-shape = SubResource("RectangleShape2D_0rof7")
-debug_color = Color(0.89636517, 0.31728822, 0.0305251, 0.41960785)
-
-[node name="Sprite2D" type="Sprite2D" parent="lava27" unique_id=799637929]
-position = Vector2(997.0156, 196.08383)
-scale = Vector2(5.07028, 5.1971197)
-texture = ExtResource("13_mgveq")
-
-[node name="lava28" type="Area2D" parent="." unique_id=275684176]
-position = Vector2(56561, 1187.9996)
-rotation = -0.06981317
-script = ExtResource("6_0rof7")
-metadata/_edit_group_ = true
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="lava28" unique_id=1005420959]
-position = Vector2(1027, 26)
-shape = SubResource("RectangleShape2D_0rof7")
-debug_color = Color(0.89636517, 0.31728822, 0.0305251, 0.41960785)
-
-[node name="Sprite2D" type="Sprite2D" parent="lava28" unique_id=210312340]
-position = Vector2(997.0156, 196.08383)
-scale = Vector2(5.07028, 5.1971197)
-texture = ExtResource("13_mgveq")
-
-[node name="lava29" type="Area2D" parent="." unique_id=210233725]
-position = Vector2(59022, 996.00024)
-rotation = -0.13962634
-script = ExtResource("6_0rof7")
-metadata/_edit_group_ = true
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="lava29" unique_id=1935899164]
-position = Vector2(1027, 26)
-shape = SubResource("RectangleShape2D_0rof7")
-debug_color = Color(0.89636517, 0.31728822, 0.0305251, 0.41960785)
-
-[node name="Sprite2D" type="Sprite2D" parent="lava29" unique_id=10765278]
-position = Vector2(997.0156, 196.08383)
-scale = Vector2(5.07028, 5.1971197)
-texture = ExtResource("13_mgveq")
-
-[node name="lava30" type="Area2D" parent="." unique_id=649766586]
-position = Vector2(61517.996, 645.9999)
-rotation = -0.13962634
-script = ExtResource("6_0rof7")
-metadata/_edit_group_ = true
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="lava30" unique_id=408956871]
-position = Vector2(1027, 26)
-shape = SubResource("RectangleShape2D_0rof7")
-debug_color = Color(0.89636517, 0.31728822, 0.0305251, 0.41960785)
-
-[node name="Sprite2D" type="Sprite2D" parent="lava30" unique_id=147728520]
-position = Vector2(997.0156, 196.08383)
-scale = Vector2(5.07028, 5.1971197)
-texture = ExtResource("13_mgveq")
-
-[node name="lava31" type="Area2D" parent="." unique_id=643376380]
-position = Vector2(64022.996, 317.0002)
-rotation = -0.05235988
-script = ExtResource("6_0rof7")
-metadata/_edit_group_ = true
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="lava31" unique_id=1129862603]
-position = Vector2(1027, 26)
-shape = SubResource("RectangleShape2D_0rof7")
-debug_color = Color(0.89636517, 0.31728822, 0.0305251, 0.41960785)
-
-[node name="Sprite2D" type="Sprite2D" parent="lava31" unique_id=1909708896]
-position = Vector2(997.0156, 196.08383)
-scale = Vector2(5.07028, 5.1971197)
-texture = ExtResource("13_mgveq")
-
-[node name="lava32" type="Area2D" parent="." unique_id=342840882]
-position = Vector2(66537, 199)
-script = ExtResource("6_0rof7")
-metadata/_edit_group_ = true
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="lava32" unique_id=1675711714]
-position = Vector2(1027, 26)
-shape = SubResource("RectangleShape2D_0rof7")
-debug_color = Color(0.89636517, 0.31728822, 0.0305251, 0.41960785)
-
-[node name="Sprite2D" type="Sprite2D" parent="lava32" unique_id=484349502]
 position = Vector2(997.0156, 196.08383)
 scale = Vector2(5.07028, 5.1971197)
 texture = ExtResource("13_mgveq")
@@ -10235,7 +10139,7 @@ position = Vector2(34.25, 3)
 shape = SubResource("RectangleShape2D_0xh8k")
 
 [node name="Platform V123" type="StaticBody2D" parent="." unique_id=968539389]
-position = Vector2(49672, 164)
+position = Vector2(49630, 146.99994)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -10375,7 +10279,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V560" type="Area2D" parent="." unique_id=396486522]
-position = Vector2(49796, 153.00006)
+position = Vector2(49754, 136)
 rotation = -0.49741885
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -10391,7 +10295,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V561" type="Area2D" parent="." unique_id=1154600594]
-position = Vector2(49801, 165.00058)
+position = Vector2(49759, 148.00052)
 rotation = 0.37350047
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -10407,7 +10311,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Platform V124" type="StaticBody2D" parent="." unique_id=789094147]
-position = Vector2(50060, 244.00034)
+position = Vector2(50018, 227.00027)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -10421,7 +10325,7 @@ position = Vector2(34.25, 3)
 shape = SubResource("RectangleShape2D_0xh8k")
 
 [node name="Spike V562" type="Area2D" parent="." unique_id=2057624651]
-position = Vector2(50193, 237.00034)
+position = Vector2(50151, 220.00027)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -10436,7 +10340,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V563" type="Area2D" parent="." unique_id=2117194316]
-position = Vector2(50207, 235.00034)
+position = Vector2(50165, 218.00027)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -10452,7 +10356,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V564" type="Area2D" parent="." unique_id=349720507]
-position = Vector2(50145, 235.00034)
+position = Vector2(50103, 218.00027)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -10468,7 +10372,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V565" type="Area2D" parent="." unique_id=1542993355]
-position = Vector2(50159, 233.00034)
+position = Vector2(50117, 216.00027)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -10484,27 +10388,19 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="small bat v1" parent="." unique_id=42938439 instance=ExtResource("8_0rof7")]
-position = Vector2(385, 322)
+position = Vector2(4237, 364)
 scale = Vector2(2, 2)
 
 [node name="small bat v2" parent="." unique_id=1129747249 instance=ExtResource("8_0rof7")]
-position = Vector2(6731, 453)
+position = Vector2(6720, 912)
 scale = Vector2(2, 2)
 
 [node name="small bat v3" parent="." unique_id=254861721 instance=ExtResource("8_0rof7")]
-position = Vector2(7013, 513)
+position = Vector2(12804, 1349)
 scale = Vector2(2, 2)
 
 [node name="small bat v4" parent="." unique_id=1088403279 instance=ExtResource("8_0rof7")]
-position = Vector2(7115, 537)
-scale = Vector2(2, 2)
-
-[node name="small bat v5" parent="." unique_id=334862152 instance=ExtResource("8_0rof7")]
-position = Vector2(7199, 413)
-scale = Vector2(2, 2)
-
-[node name="small bat v6" parent="." unique_id=443377000 instance=ExtResource("8_0rof7")]
-position = Vector2(9676, 1581)
+position = Vector2(9711, 1555)
 scale = Vector2(2, 2)
 
 [node name="small bat v7" parent="." unique_id=1282019225 instance=ExtResource("8_0rof7")]
@@ -10566,6 +10462,159 @@ scale = Vector2(2, 2)
 [node name="small bat v21" parent="." unique_id=1903537202 instance=ExtResource("8_0rof7")]
 position = Vector2(49267, -81)
 scale = Vector2(2, 2)
+
+[node name="Platform V125" type="StaticBody2D" parent="." unique_id=445859017]
+position = Vector2(50403, 319.99994)
+scale = Vector2(3, 0.25)
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="Platform V125" unique_id=927294583]
+position = Vector2(34.000008, -24.750217)
+scale = Vector2(0.4355555, 3.3300083)
+texture = ExtResource("3_134sd")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platform V125" unique_id=1655961383]
+position = Vector2(34.25, 3)
+shape = SubResource("RectangleShape2D_0xh8k")
+
+[node name="Spike V566" type="Area2D" parent="." unique_id=1713432466]
+position = Vector2(50527, 309)
+rotation = -0.49741885
+script = ExtResource("4_oosxx")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="Spike V566" unique_id=1519960034]
+position = Vector2(-9.862308, -33.86223)
+scale = Vector2(2.2586126, 3.0086105)
+texture = ExtResource("6_0xh8k")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Spike V566" unique_id=978838873]
+position = Vector2(-11.666683, -31.999975)
+scale = Vector2(4.5839796, 5.0186496)
+polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
+
+[node name="Spike V567" type="Area2D" parent="." unique_id=549855247]
+position = Vector2(50532, 321.00052)
+rotation = 0.37350047
+script = ExtResource("4_oosxx")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="Spike V567" unique_id=456295048]
+position = Vector2(-9.862308, -33.86223)
+scale = Vector2(2.2586126, 3.0086105)
+texture = ExtResource("6_0xh8k")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Spike V567" unique_id=1627577749]
+position = Vector2(-11.666683, -31.999975)
+scale = Vector2(4.5839796, 5.0186496)
+polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
+
+[node name="Platform V126" type="StaticBody2D" parent="." unique_id=2053142952]
+position = Vector2(50791, 400.00027)
+scale = Vector2(3, 0.25)
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="Platform V126" unique_id=814082102]
+position = Vector2(34.000008, -24.750217)
+scale = Vector2(0.4355555, 3.3300083)
+texture = ExtResource("3_134sd")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Platform V126" unique_id=618730178]
+position = Vector2(34.25, 3)
+shape = SubResource("RectangleShape2D_0xh8k")
+
+[node name="Spike V568" type="Area2D" parent="." unique_id=508030291]
+position = Vector2(50924, 393.00027)
+script = ExtResource("4_oosxx")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="Spike V568" unique_id=1346992821]
+position = Vector2(-9.862308, -33.86223)
+scale = Vector2(2.2586126, 3.0086105)
+texture = ExtResource("6_0xh8k")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Spike V568" unique_id=1708248569]
+position = Vector2(-11.666683, -31.999975)
+scale = Vector2(4.5839796, 5.0186496)
+polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
+
+[node name="Spike V569" type="Area2D" parent="." unique_id=213496245]
+position = Vector2(50938, 391.00027)
+rotation = 0.24958208
+script = ExtResource("4_oosxx")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="Spike V569" unique_id=1425881004]
+position = Vector2(-4.862177, -23.36223)
+scale = Vector2(1.9461045, 2.3523605)
+texture = ExtResource("6_0xh8k")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Spike V569" unique_id=1505044110]
+position = Vector2(-6.092046, -22.699984)
+scale = Vector2(3.90735, 4.077654)
+polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
+
+[node name="Spike V570" type="Area2D" parent="." unique_id=1610352249]
+position = Vector2(50876, 391.00027)
+rotation = -0.12391838
+script = ExtResource("4_oosxx")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="Spike V570" unique_id=1728730007]
+position = Vector2(-9.862308, -33.86223)
+scale = Vector2(2.2586126, 3.0086105)
+texture = ExtResource("6_0xh8k")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Spike V570" unique_id=1977458727]
+position = Vector2(-11.666683, -31.999975)
+scale = Vector2(4.5839796, 5.0186496)
+polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
+
+[node name="Spike V571" type="Area2D" parent="." unique_id=953018405]
+position = Vector2(50890, 389.00027)
+rotation = -0.12391838
+script = ExtResource("4_oosxx")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="Spike V571" unique_id=83699034]
+position = Vector2(-4.862177, -23.36223)
+scale = Vector2(1.9461045, 2.3523605)
+texture = ExtResource("6_0xh8k")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Spike V571" unique_id=446796795]
+position = Vector2(-6.092046, -22.699984)
+scale = Vector2(3.90735, 4.077654)
+polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
+
+[node name="lava27" type="Area2D" parent="." unique_id=1117816393]
+position = Vector2(53964, 764)
+script = ExtResource("6_0rof7")
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="lava27" unique_id=1929711056]
+position = Vector2(1027, 26)
+shape = SubResource("RectangleShape2D_0rof7")
+debug_color = Color(0.89636517, 0.31728822, 0.0305251, 0.41960785)
+
+[node name="Sprite2D" type="Sprite2D" parent="lava27" unique_id=1108351479]
+position = Vector2(997.0156, 196.08383)
+scale = Vector2(5.07028, 5.1971197)
+texture = ExtResource("13_mgveq")
+
+[node name="lava28" type="Area2D" parent="." unique_id=506992651]
+position = Vector2(56456, 764)
+script = ExtResource("6_0rof7")
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="lava28" unique_id=1290202507]
+position = Vector2(1027, 26)
+shape = SubResource("RectangleShape2D_0rof7")
+debug_color = Color(0.89636517, 0.31728822, 0.0305251, 0.41960785)
+
+[node name="Sprite2D" type="Sprite2D" parent="lava28" unique_id=356089368]
+position = Vector2(997.0156, 196.08383)
+scale = Vector2(5.07028, 5.1971197)
+texture = ExtResource("13_mgveq")
 
 [connection signal="body_entered" from="Spike V21" to="Spike V21" method="_on_body_entered"]
 [connection signal="body_entered" from="Spike V22" to="Spike V22" method="_on_body_entered"]
@@ -10841,12 +10890,6 @@ scale = Vector2(2, 2)
 [connection signal="body_entered" from="lava24" to="lava24" method="_on_body_entered"]
 [connection signal="body_entered" from="lava25" to="lava25" method="_on_body_entered"]
 [connection signal="body_entered" from="lava26" to="lava26" method="_on_body_entered"]
-[connection signal="body_entered" from="lava27" to="lava27" method="_on_body_entered"]
-[connection signal="body_entered" from="lava28" to="lava28" method="_on_body_entered"]
-[connection signal="body_entered" from="lava29" to="lava29" method="_on_body_entered"]
-[connection signal="body_entered" from="lava30" to="lava30" method="_on_body_entered"]
-[connection signal="body_entered" from="lava31" to="lava31" method="_on_body_entered"]
-[connection signal="body_entered" from="lava32" to="lava32" method="_on_body_entered"]
 [connection signal="body_entered" from="Spike V278" to="Spike V278" method="_on_body_entered"]
 [connection signal="body_entered" from="Spike V279" to="Spike V279" method="_on_body_entered"]
 [connection signal="body_entered" from="Spike V280" to="Spike V280" method="_on_body_entered"]
@@ -11139,3 +11182,11 @@ scale = Vector2(2, 2)
 [connection signal="body_entered" from="Spike V563" to="Spike V563" method="_on_body_entered"]
 [connection signal="body_entered" from="Spike V564" to="Spike V564" method="_on_body_entered"]
 [connection signal="body_entered" from="Spike V565" to="Spike V565" method="_on_body_entered"]
+[connection signal="body_entered" from="Spike V566" to="Spike V566" method="_on_body_entered"]
+[connection signal="body_entered" from="Spike V567" to="Spike V567" method="_on_body_entered"]
+[connection signal="body_entered" from="Spike V568" to="Spike V568" method="_on_body_entered"]
+[connection signal="body_entered" from="Spike V569" to="Spike V569" method="_on_body_entered"]
+[connection signal="body_entered" from="Spike V570" to="Spike V570" method="_on_body_entered"]
+[connection signal="body_entered" from="Spike V571" to="Spike V571" method="_on_body_entered"]
+[connection signal="body_entered" from="lava27" to="lava27" method="_on_body_entered"]
+[connection signal="body_entered" from="lava28" to="lava28" method="_on_body_entered"]

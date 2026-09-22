@@ -24,11 +24,12 @@ func _physics_process(delta: float) -> void:
 	if Input.is_action_just_pressed("attack_3") and not attacking and can_attack:
 		attacking_col.disabled = false
 		attacking = true
-		#can_attack = false
+		can_attack = false
 		animated_sprite_2d.play("attack_3")
 		$attacking.start()
+		$attacking_col2.KillEnemies()
 		#$attack_again.start()
-		attacking_col.disabled = true
+		
 
 	# Handle jump
 	if Input.is_action_just_pressed("jump") and is_on_floor():
@@ -77,9 +78,11 @@ func _on_attack_again_timer_timeout() -> void:
 	can_attack = true
 
 
-#func _on_animated_sprite_2d_animation_finished() -> void:
-	#if animated_sprite_2d.name == "attack_3":
+func _on_animated_sprite_2d_animation_finished() -> void:
+	if animated_sprite_2d.name == "attack_3":
 		#animated_sprite_2d.play("idle")
+		attacking_col.disabled = true
+		can_attack = true
 		
 		
 
@@ -89,5 +92,6 @@ func _on_attacking_timeout() -> void:
 
 
 func _on_area_2d_body_entered(body: Node2D) -> void:
-	if body is Small_Bat:
+	if body is SmallDemonBat:
 		print("bat") # Replace with function body.
+		respawn()
