@@ -9,3 +9,7 @@ func _physics_process(delta):
 	velocity=direction * speed
 	#look_at(terget.position)
 	move_and_slide()
+
+
+func _on_child_entered_tree(node: Node) -> void:
+	pass # Replace with function body.
