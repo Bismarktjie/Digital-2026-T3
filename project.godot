@@ -14,6 +14,15 @@ config/name="Mark V1"
 run/main_scene="uid://dpjdabnxnnb2b"
 config/features=PackedStringArray("4.6", "Forward Plus")
 
+[file_customization]
+
+folder_colors={
+"res://Script V1/": "orange",
+"res://Textures/": "red",
+"res://entities/": "pink",
+"res://prefabs/": "yellow"
+}
+
 [input]
 
 jump={

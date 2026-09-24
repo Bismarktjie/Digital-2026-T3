@@ -14,7 +14,6 @@ var attacking = false
 var can_attack = true
 
 
-
 func _physics_process(delta: float) -> void:
 	# Add gravity
 	if not is_on_floor():
@@ -97,4 +96,8 @@ func _on_area_2d_body_entered(body: Node2D) -> void:
 		print("bat has been hit") # Replace with function body.
 	elif body is SmallDemonBat and not attacking: #player not attacking, player has been hit
 		print("demon has hit player")
-		#respawn()
+	#respawn()
+
+
+func _on_attacking_col_2_body_entered(body: Node2D) -> void:
+	pass # Replace with function body.

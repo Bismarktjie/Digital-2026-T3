@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dop08btfx61dn"
-path="res://.godot/imported/projectile.png-6187b4b31c705f0f04e09f6f411a2016.ctex"
+uid="uid://dao4xhlieme43"
+path="res://.godot/imported/pixilart-drawing (3).png-bffb29f11cf2cbe5cd930cbda05a4599.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Textures/Sprites/Sprites/projectile.png"
-dest_files=["res://.godot/imported/projectile.png-6187b4b31c705f0f04e09f6f411a2016.ctex"]
+source_file="res://Textures/Sprites/Sprites/pixilart-drawing (3).png"
+dest_files=["res://.godot/imported/pixilart-drawing (3).png-bffb29f11cf2cbe5cd930cbda05a4599.ctex"]
 
 [params]
 

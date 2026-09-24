@@ -1,0 +1,63 @@
+[gd_scene format=3 uid="uid://bl7o22x0u2ts5"]
+
+[ext_resource type="Texture2D" uid="uid://bvxhcfvqqjirb" path="res://Textures/Sprites/Sprites/tile000.png" id="1_486cx"]
+[ext_resource type="Texture2D" uid="uid://7efoc50yb36p" path="res://Textures/Sprites/Sprites/tile001.png" id="2_v6161"]
+[ext_resource type="Texture2D" uid="uid://k7ui6utwbrgt" path="res://Textures/Sprites/Sprites/tile002.png" id="3_01hdo"]
+[ext_resource type="Texture2D" uid="uid://dcnjolx8r0j4" path="res://Textures/Sprites/Sprites/tile003.png" id="4_h662n"]
+
+[sub_resource type="Curve2D" id="Curve2D_v1m5f"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -139, -2.0000122)
+}
+point_count = 1
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_3euwl"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_486cx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_v6161")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_01hdo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_h662n")
+}],
+"loop": true,
+"name": &"default",
+"speed": 7.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_pf1rv"]
+radius = 23.998085
+height = 67.96924
+
+[node name="Circular bat" type="Node2D" unique_id=26816063]
+position = Vector2(-3, 0)
+metadata/_edit_group_ = true
+
+[node name="Path2D" type="Path2D" parent="." unique_id=1524840250]
+curve = SubResource("Curve2D_v1m5f")
+metadata/_edit_group_ = true
+
+[node name="PathFollow2D" type="PathFollow2D" parent="Path2D" unique_id=1942375734]
+position = Vector2(112, 1)
+rotation = -3.1326642
+metadata/_edit_group_ = true
+
+[node name="Area2D" type="Area2D" parent="Path2D/PathFollow2D" unique_id=1225200497]
+position = Vector2(-7.6293945e-06, 2.2351742e-08)
+metadata/_edit_group_ = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Path2D/PathFollow2D/Area2D" unique_id=6015970]
+position = Vector2(-21.960258, -3.2782183)
+rotation = -3.1415927
+sprite_frames = SubResource("SpriteFrames_3euwl")
+frame_progress = 0.9389987
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Path2D/PathFollow2D/Area2D" unique_id=676109351]
+position = Vector2(-10.999111, -0.13923025)
+shape = SubResource("CapsuleShape2D_pf1rv")

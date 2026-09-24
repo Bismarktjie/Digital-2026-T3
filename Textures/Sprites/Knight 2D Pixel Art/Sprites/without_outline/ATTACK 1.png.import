@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dop08btfx61dn"
-path="res://.godot/imported/projectile.png-6187b4b31c705f0f04e09f6f411a2016.ctex"
+uid="uid://klit4lkemojd"
+path="res://.godot/imported/ATTACK 1.png-ad910d26c7689117826f431891f5232c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Textures/Sprites/Sprites/projectile.png"
-dest_files=["res://.godot/imported/projectile.png-6187b4b31c705f0f04e09f6f411a2016.ctex"]
+source_file="res://Textures/Sprites/Knight 2D Pixel Art/Sprites/without_outline/ATTACK 1.png"
+dest_files=["res://.godot/imported/ATTACK 1.png-ad910d26c7689117826f431891f5232c.ctex"]
 
 [params]
 

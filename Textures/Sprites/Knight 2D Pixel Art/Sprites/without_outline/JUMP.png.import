@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dop08btfx61dn"
-path="res://.godot/imported/projectile.png-6187b4b31c705f0f04e09f6f411a2016.ctex"
+uid="uid://ctb1p3a736s0y"
+path="res://.godot/imported/JUMP.png-018f18278def5ce66811dde500950b26.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Textures/Sprites/Sprites/projectile.png"
-dest_files=["res://.godot/imported/projectile.png-6187b4b31c705f0f04e09f6f411a2016.ctex"]
+source_file="res://Textures/Sprites/Knight 2D Pixel Art/Sprites/without_outline/JUMP.png"
+dest_files=["res://.godot/imported/JUMP.png-018f18278def5ce66811dde500950b26.ctex"]
 
 [params]
 

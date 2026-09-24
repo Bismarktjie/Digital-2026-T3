@@ -1,0 +1,62 @@
+[gd_scene format=3 uid="uid://5mpnu40r22o2"]
+
+[ext_resource type="Script" uid="uid://c6t6hb5mwdd51" path="res://entities/small_demon_bat.gd" id="1_jral0"]
+[ext_resource type="Texture2D" uid="uid://bvxhcfvqqjirb" path="res://Textures/Sprites/Sprites/tile000.png" id="1_o46n8"]
+[ext_resource type="Texture2D" uid="uid://7efoc50yb36p" path="res://Textures/Sprites/Sprites/tile001.png" id="2_jral0"]
+[ext_resource type="Texture2D" uid="uid://k7ui6utwbrgt" path="res://Textures/Sprites/Sprites/tile002.png" id="3_mpl22"]
+[ext_resource type="Texture2D" uid="uid://dcnjolx8r0j4" path="res://Textures/Sprites/Sprites/tile003.png" id="4_yasyp"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jral0"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_o46n8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_jral0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_mpl22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_yasyp")
+}],
+"loop": true,
+"name": &"default",
+"speed": 8.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_jral0"]
+radius = 14.0
+height = 36.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_mpl22"]
+radius = 14.0
+height = 40.0
+
+[node name="small bat v1" type="CharacterBody2D" unique_id=42938439]
+position = Vector2(4, 0)
+script = ExtResource("1_jral0")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2139574700]
+position = Vector2(1, -1)
+scale = Vector2(0.58719134, 0.58010566)
+sprite_frames = SubResource("SpriteFrames_jral0")
+autoplay = "default"
+frame_progress = 0.35539266
+offset = Vector2(0, -28.945)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=87436523]
+position = Vector2(-5, -16)
+shape = SubResource("CapsuleShape2D_jral0")
+
+[node name="hit_box" type="Area2D" parent="." unique_id=1577047948]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="hit_box" unique_id=1420074478]
+position = Vector2(-6, -17)
+shape = SubResource("CapsuleShape2D_mpl22")
+debug_color = Color(0, 0.5331776, 0.98196226, 0.41960785)
+
+[connection signal="child_entered_tree" from="." to="." method="_on_child_entered_tree"]
+[connection signal="child_entered_tree" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_child_entered_tree"]
+[connection signal="body_entered" from="hit_box" to="." method="_on_hit_box_body_entered"]

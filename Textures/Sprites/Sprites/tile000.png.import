@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dop08btfx61dn"
-path="res://.godot/imported/projectile.png-6187b4b31c705f0f04e09f6f411a2016.ctex"
+uid="uid://bvxhcfvqqjirb"
+path="res://.godot/imported/tile000.png-1fc99fb675b0b39eff68166b4e09f14a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Textures/Sprites/Sprites/projectile.png"
-dest_files=["res://.godot/imported/projectile.png-6187b4b31c705f0f04e09f6f411a2016.ctex"]
+source_file="res://Textures/Sprites/Sprites/tile000.png"
+dest_files=["res://.godot/imported/tile000.png-1fc99fb675b0b39eff68166b4e09f14a.ctex"]
 
 [params]
 
