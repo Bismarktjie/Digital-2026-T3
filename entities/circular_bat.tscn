@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://bl7o22x0u2ts5"]
 
-[ext_resource type="Texture2D" uid="uid://bvxhcfvqqjirb" path="res://Textures/Sprites/Sprites/tile000.png" id="1_486cx"]
-[ext_resource type="Texture2D" uid="uid://7efoc50yb36p" path="res://Textures/Sprites/Sprites/tile001.png" id="2_v6161"]
-[ext_resource type="Texture2D" uid="uid://k7ui6utwbrgt" path="res://Textures/Sprites/Sprites/tile002.png" id="3_01hdo"]
-[ext_resource type="Texture2D" uid="uid://dcnjolx8r0j4" path="res://Textures/Sprites/Sprites/tile003.png" id="4_h662n"]
+[ext_resource type="Texture2D" uid="uid://bvxhcfvqqjirb" path="res://Textures/Sprites/Sprites/tile000.png" id="1_ars3h"]
+[ext_resource type="Texture2D" uid="uid://7efoc50yb36p" path="res://Textures/Sprites/Sprites/tile001.png" id="2_8kiyd"]
+[ext_resource type="Texture2D" uid="uid://k7ui6utwbrgt" path="res://Textures/Sprites/Sprites/tile002.png" id="3_3d4eq"]
+[ext_resource type="Texture2D" uid="uid://dcnjolx8r0j4" path="res://Textures/Sprites/Sprites/tile003.png" id="4_gsnft"]
 
 [sub_resource type="Curve2D" id="Curve2D_v1m5f"]
 _data = {
@@ -15,16 +15,16 @@ point_count = 1
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("1_486cx")
+"texture": ExtResource("1_ars3h")
 }, {
 "duration": 1.0,
-"texture": ExtResource("2_v6161")
+"texture": ExtResource("2_8kiyd")
 }, {
 "duration": 1.0,
-"texture": ExtResource("3_01hdo")
+"texture": ExtResource("3_3d4eq")
 }, {
 "duration": 1.0,
-"texture": ExtResource("4_h662n")
+"texture": ExtResource("4_gsnft")
 }],
 "loop": true,
 "name": &"default",
@@ -36,16 +36,18 @@ radius = 23.998085
 height = 67.96924
 
 [node name="Circular bat" type="Node2D" unique_id=26816063]
-position = Vector2(-3, 0)
+position = Vector2(-1, 0)
+rotation = -3.1415927
 metadata/_edit_group_ = true
 
 [node name="Path2D" type="Path2D" parent="." unique_id=1524840250]
+position = Vector2(-138, -2.0000122)
 curve = SubResource("Curve2D_v1m5f")
 metadata/_edit_group_ = true
 
 [node name="PathFollow2D" type="PathFollow2D" parent="Path2D" unique_id=1942375734]
-position = Vector2(112, 1)
-rotation = -3.1326642
+position = Vector2(-139, -2.0000122)
+rotation = 0.014387584
 metadata/_edit_group_ = true
 
 [node name="Area2D" type="Area2D" parent="Path2D/PathFollow2D" unique_id=1225200497]
@@ -53,11 +55,11 @@ position = Vector2(-7.6293945e-06, 2.2351742e-08)
 metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Path2D/PathFollow2D/Area2D" unique_id=6015970]
-position = Vector2(-21.960258, -3.2782183)
+position = Vector2(267.01553, -0.8416405)
 rotation = -3.1415927
 sprite_frames = SubResource("SpriteFrames_3euwl")
 frame_progress = 0.9389987
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Path2D/PathFollow2D/Area2D" unique_id=676109351]
-position = Vector2(-10.999111, -0.13923025)
+position = Vector2(277.02887, 0.014386758)
 shape = SubResource("CapsuleShape2D_pf1rv")

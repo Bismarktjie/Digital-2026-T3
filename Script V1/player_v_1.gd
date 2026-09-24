@@ -1,5 +1,7 @@
 extends CharacterBody2D
 
+class_name Player
+
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 @onready var camera = $Camera2D
 @onready var background = $"../Background" # Fixed node reference
@@ -96,8 +98,13 @@ func _on_area_2d_body_entered(body: Node2D) -> void:
 		print("bat has been hit") # Replace with function body.
 	elif body is SmallDemonBat and not attacking: #player not attacking, player has been hit
 		print("demon has hit player")
-	#respawn()
+		#respawn()
 
 
 func _on_attacking_col_2_body_entered(body: Node2D) -> void:
-	pass # Replace with function body.
+	print(attacking)
+	if body is SmallDemonBat and attacking: #player is swinging at bat
+		print("bat has been hit") # Replace with function body.
+	elif body is SmallDemonBat and not attacking: #player not attacking, player has been hit
+		print("demon has hit player")
+		#respawn() # Replace with function body.
