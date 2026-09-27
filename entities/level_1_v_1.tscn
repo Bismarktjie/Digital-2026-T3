@@ -10389,7 +10389,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="small bat v1" parent="." unique_id=42938439 instance=ExtResource("8_0rof7")]
-position = Vector2(4237, 364)
+position = Vector2(4237, 309)
 scale = Vector2(2, 2)
 
 [node name="small bat v2" parent="." unique_id=1129747249 instance=ExtResource("8_0rof7")]
