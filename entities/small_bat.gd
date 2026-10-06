@@ -27,7 +27,7 @@ func _on_animated_sprite_2d_child_entered_tree(node: Node) -> void:
 
 func _on_body_entered(body: Node2D) -> void:
 	if body.name == "player":
-		print("ouch, bad bat")
+		print ("ouch, bad bat")
 		body.respawn()
 
 
@@ -42,3 +42,6 @@ func _on_collision_shape_2d_child_entered_tree(node: Node) -> void:
 func _on_hit_box_body_entered(body):
 	if body.is_in_group("player"):
 		queue_free()
+	for x in collision.get_overlapping_areas():
+		if x == die:
+			pass
