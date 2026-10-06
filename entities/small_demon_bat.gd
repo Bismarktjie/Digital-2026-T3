@@ -19,3 +19,7 @@ func _on_hit_box_body_entered(body: Node2D) -> void:
 	if body is Player:
 		print("player")
 		body.respawn() # Replace with function body.
+
+
+func _on_collision_shape_2d_child_entered_tree(node: Node) -> void:
+	pass # Replace with function body.

@@ -21,7 +21,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("4_yasyp")
 }],
-"loop": true,
+"loop": 1,
 "name": &"default",
 "speed": 8.0
 }]
@@ -60,3 +60,4 @@ debug_color = Color(0, 0.5331776, 0.98196226, 0.41960785)
 [connection signal="child_entered_tree" from="." to="." method="_on_child_entered_tree"]
 [connection signal="child_entered_tree" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_child_entered_tree"]
 [connection signal="body_entered" from="hit_box" to="." method="_on_hit_box_body_entered"]
+[connection signal="child_entered_tree" from="hit_box/CollisionShape2D" to="." method="_on_collision_shape_2d_child_entered_tree"]

@@ -11,7 +11,7 @@
 
 [node name="bg1" type="Parallax2D" parent="." unique_id=1108538310]
 z_index = -10
-scroll_scale = Vector2(0.5, 0)
+scroll_scale = Vector2(1, 0)
 repeat_size = Vector2(2496, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="bg1" unique_id=844442680]
@@ -22,7 +22,7 @@ centered = false
 
 [node name="bg2" type="Parallax2D" parent="." unique_id=482771423]
 z_index = -10
-scroll_scale = Vector2(1, 0)
+scroll_scale = Vector2(0.9, 0)
 repeat_size = Vector2(2496, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="bg2" unique_id=608602770]
@@ -33,7 +33,7 @@ centered = false
 
 [node name="bg3" type="Parallax2D" parent="." unique_id=1062058405]
 z_index = -10
-scroll_scale = Vector2(0.7, 0)
+scroll_scale = Vector2(0.8, 0)
 repeat_size = Vector2(2496, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="bg3" unique_id=267438476]
@@ -45,7 +45,7 @@ centered = false
 
 [node name="bg4" type="Parallax2D" parent="." unique_id=1977969858]
 z_index = -10
-scroll_scale = Vector2(0.8, 0)
+scroll_scale = Vector2(0.7, 0)
 repeat_size = Vector2(2496, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="bg4" unique_id=652553099]
@@ -56,7 +56,7 @@ centered = false
 
 [node name="bg5" type="Parallax2D" parent="." unique_id=1922446430]
 z_index = -10
-scroll_scale = Vector2(0.9, 0)
+scroll_scale = Vector2(0.6, 0)
 repeat_size = Vector2(2496, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="bg5" unique_id=1728201849]
@@ -68,7 +68,7 @@ centered = false
 
 [node name="bg6" type="Parallax2D" parent="." unique_id=422551413]
 z_index = -10
-scroll_scale = Vector2(1, 0)
+scroll_scale = Vector2(0.5, 0)
 repeat_size = Vector2(2496, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="bg6" unique_id=1507492620]
