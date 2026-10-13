@@ -27,7 +27,7 @@ size = Vector2(246, 132)
 [node name="Level 1 V1" type="Node2D" unique_id=165306160]
 
 [node name="player" parent="." unique_id=483559747 instance=ExtResource("1_134sd")]
-position = Vector2(83, 353)
+position = Vector2(3760.0002, 518)
 rotation = -0.0005451031
 
 [node name="Background" parent="." unique_id=1827103222 instance=ExtResource("4_fmm8o")]

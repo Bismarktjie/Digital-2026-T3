@@ -3,15 +3,16 @@ extends CharacterBody2D
 class_name Small_Bat
 
 @onready var terget=$"../player"
-@onready var collision = $Area2D
+@onready var collision = $hit_box
 @onready var die = $"../player/attacking_col2"
 
+var direction = Vector2.
 
 var speed=200
 
 
 func _physics_process(delta):
-	var direction=(terget.position-position).normalized()
+	direction=(terget.position-position).normalized()
 	velocity=direction * speed
 	#look_at(terget.position)
 	
@@ -41,7 +42,7 @@ func _on_collision_shape_2d_child_entered_tree(node: Node) -> void:
 		pass
 func _on_hit_box_body_entered(body):
 	if body.is_in_group("player"):
-		queue_free()
+		call_deferred("queue_free")
 	for x in collision.get_overlapping_areas():
 		if x == die:
-			pass
+			queue_free()

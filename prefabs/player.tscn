@@ -9,6 +9,9 @@
 [ext_resource type="Texture2D" uid="uid://c7pkxebk40iw6" path="res://Textures/Sprites/Knight 2D Pixel Art/Sprites/without_outline/ATTACK 3.png" id="4_rgeog"]
 [ext_resource type="Script" uid="uid://c1a4t5xyvuaan" path="res://prefabs/attacking_col_2.gd" id="8_kbsxf"]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_e74cb"]
+size = Vector2(69, 150.75)
+
 [sub_resource type="AtlasTexture" id="AtlasTexture_gf0v6"]
 atlas = ExtResource("2_u51tk")
 region = Rect2(0, 0, 96, 84)
@@ -352,15 +355,17 @@ animations = [{
 "speed": 10.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_e74cb"]
-size = Vector2(69, 150.75)
-
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_u51tk"]
 size = Vector2(80, 207)
 
 [node name="player" type="CharacterBody2D" unique_id=483559747]
 scale = Vector2(0.5, 0.5)
 script = ExtResource("1_4dohe")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="." unique_id=901206736]
+position = Vector2(0, -46)
+shape = SubResource("RectangleShape2D_e74cb")
+debug_color = Color(0, 0.57254905, 0.81960785, 0.41960785)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1779173206]
 position = Vector2(2.2737368e-13, -60)
@@ -370,11 +375,6 @@ animation = &"attack_3"
 autoplay = "idle"
 frame = 5
 frame_progress = 1.0
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=59312089]
-position = Vector2(0, -46)
-shape = SubResource("RectangleShape2D_e74cb")
-debug_color = Color(0, 0.57254905, 0.81960785, 0.41960785)
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=2099374894]
 position = Vector2(-6, -84)
@@ -397,8 +397,16 @@ shape = SubResource("RectangleShape2D_u51tk")
 disabled = true
 debug_color = Color(0.88235515, 0.2995152, 0.40420032, 0.41960785)
 
+[node name="player_hit_box" type="Area2D" parent="." unique_id=382750951]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="player_hit_box" unique_id=59312089]
+position = Vector2(0, -46)
+shape = SubResource("RectangleShape2D_e74cb")
+debug_color = Color(0, 0.57254905, 0.81960785, 0.41960785)
+
 [connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
 [connection signal="timeout" from="attacking" to="." method="_on_attacking_timeout"]
 [connection signal="timeout" from="attack_again" to="." method="_on_attack_again_timeout"]
 [connection signal="body_entered" from="attacking_col2" to="." method="_on_area_2d_body_entered"]
 [connection signal="body_entered" from="attacking_col2" to="." method="_on_attacking_col_2_body_entered"]
+[connection signal="area_entered" from="player_hit_box" to="." method="_on_player_hit_box_area_entered"]

@@ -7,6 +7,7 @@ class_name Player
 @onready var background = $"../Background" # Fixed node reference
 @onready var attacking_col = $attacking_col2/attacking_col
 @onready var attack_col_pos = attacking_col.position.x
+@onready var bat = $"../small bat v1/hit_box"
 
 const SPEED = 400.0
 const JUMP_VELOCITY = -450.0
@@ -93,18 +94,29 @@ func _on_attacking_timeout() -> void:
 
 
 func _on_area_2d_body_entered(body: Node2D) -> void:
-	print(body)
-	if body is SmallDemonBat and attacking: #player is swinging at bat
+	print("bat has entered player attack")
+	if body is Small_Bat and attacking: #player is swinging at bat
 		print("bat has been hit") # Replace with function body.
-	elif body is SmallDemonBat and not attacking: #player not attacking, player has been hit
+	if body is Small_Bat and not attacking: #player not attacking, player has been hit
 		print("demon has hit player")
 		#respawn()
 
 
 func _on_attacking_col_2_body_entered(body: Node2D) -> void:
-	print(attacking)
-	if body is SmallDemonBat and attacking: #player is swinging at bat
-		print("bat has been hit") # Replace with function body.
-	elif body is SmallDemonBat and not attacking: #player not attacking, player has been hit
+	print("bat has collided with player")
+	if body is Small_Bat and attacking: #player is swinging at bat
+		print("bat has been hit") 
+		queue_free()# Replace with function body.
+	elif body is Small_Bat and not attacking: #player not attacking, player has been hit
 		print("demon has hit player")
+	
 		#respawn() # Replace with function body.
+
+
+func _on_player_hit_box_area_entered(area: Area2D) -> void:
+	print(attacking)
+	if area == bat and attacking: #player is swinging at bat
+		print("bat has been hit") # Replace with function body.
+	elif area == bat and not attacking: #player not attacking, player has been hit
+		print("demon has hit player")
+	#respawn() # Replace with function body. # Replace with function body.
