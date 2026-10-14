@@ -8,6 +8,7 @@ class_name Player
 @onready var attacking_col = $attacking_col2/attacking_col
 @onready var attack_col_pos = attacking_col.position.x
 @onready var bat = $"../small bat v1/hit_box"
+@onready var timer_label = $Camera2D/CanvasLayer/TimerLabel
 
 const SPEED = 400.0
 const JUMP_VELOCITY = -450.0
@@ -15,13 +16,26 @@ var start_position = Vector2(96, 160)
 
 var attacking = false
 var can_attack = true
+var knockback_timer := 0.0
+var run_time: float = 0.0
 
 signal kill_bat
 
 func _physics_process(delta: float) -> void:
+	run_time += delta
+	var minutes := int(run_time) / 60
+	var seconds := int(run_time) % 60
+	var millis := int((run_time - int(run_time)) * 1000)
+	timer_label.text = "Time: %02d:%02d:%03d" % [minutes, seconds, millis]
+
 	# Add gravity
 	if not is_on_floor():
 		velocity += get_gravity() * delta
+
+	if knockback_timer > 0:
+		knockback_timer -= delta
+		move_and_slide()
+		return
 
 	# Handle attack input
 	if Input.is_action_just_pressed("attack_3") and not attacking and can_attack:
@@ -86,8 +100,7 @@ func _on_animated_sprite_2d_animation_finished() -> void:
 		#animated_sprite_2d.play("idle")
 		attacking_col.disabled = true
 		can_attack = true
-		
-		
+
 
 
 func _on_attacking_timeout() -> void:
@@ -116,9 +129,34 @@ func _on_attacking_col_2_body_entered(body: Node2D) -> void:
 
 func _on_player_hit_box_area_entered(area: Area2D) -> void:
 	print(attacking)
-	if area == bat and attacking: #player is swinging at bat
+	if area.get_parent() is Small_Bat and attacking: #player is swinging at bat
 		print("bat has been hit") # Replace with function body.
 		kill_bat.emit()
-	elif area == bat and not attacking: #player not attacking, player has been hit
+	elif area.get_parent() is Small_Bat and not attacking: #player not attacking, player has been hit
 		print("demon has hit player")
+		(area.get_parent() as Small_Bat).knockback(global_position)
+		take_hit(area.global_position)
 	#respawn() # Replace with function body. # Replace with function body.
+
+signal health_changed(new_health: int)
+
+@export var max_health: int = 100
+var health: int = max_health:
+	set(value):
+		health = clampi(value, 0, max_health)
+		health_changed.emit(health)
+func take_hit(from_position: Vector2, amount: int = 10, knock_h: float = 100.0, knock_v: float = -250.0) -> void:
+	health -= amount
+	print("take_hit called, health is now ", health)
+	health_bar.set_health(health)
+	if health <= 0:
+		health = 100
+		health_bar.set_health(health)
+		run_time = 0.0
+		respawn()
+	var dir := signf(global_position.x - from_position.x)
+	velocity = Vector2(dir * knock_h, knock_v)
+	knockback_timer = 0.5
+
+
+@onready var health_bar = $Camera2D/CanvasLayer/ProgressBar

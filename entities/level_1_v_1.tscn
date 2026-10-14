@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://dpjdabnxnnb2b"]
 
-[ext_resource type="PackedScene" uid="uid://b85i6f1und8lr" path="res://prefabs/player.tscn" id="1_134sd"]
+[ext_resource type="PackedScene" uid="uid://b85i6f1und8lr" path="res://entities/player.tscn" id="1_134sd"]
 [ext_resource type="Texture2D" uid="uid://mmnawxvxrneq" path="res://Textures/Sprites/Sprites/pixilart-drawing (5).png" id="3_134sd"]
-[ext_resource type="PackedScene" uid="uid://doitikpae2r5q" path="res://prefabs/background.tscn" id="4_fmm8o"]
+[ext_resource type="PackedScene" uid="uid://doitikpae2r5q" path="res://entities/background.tscn" id="4_fmm8o"]
 [ext_resource type="Script" uid="uid://b1gvmbshiulwu" path="res://Script V1/spike_v_1.gd" id="4_oosxx"]
 [ext_resource type="Script" uid="uid://dytmxn83bi1sp" path="res://Script V1/area_2d.gd" id="6_0rof7"]
 [ext_resource type="Texture2D" uid="uid://dao4xhlieme43" path="res://Textures/Sprites/Sprites/pixilart-drawing (3).png" id="6_0xh8k"]
@@ -27,7 +27,7 @@ size = Vector2(246, 132)
 [node name="Level 1 V1" type="Node2D" unique_id=165306160]
 
 [node name="player" parent="." unique_id=483559747 instance=ExtResource("1_134sd")]
-position = Vector2(3760.0002, 518)
+position = Vector2(112, 320.00006)
 rotation = -0.0005451031
 
 [node name="Background" parent="." unique_id=1827103222 instance=ExtResource("4_fmm8o")]
@@ -546,7 +546,8 @@ position = Vector2(-7.666668, 0)
 shape = SubResource("RectangleShape2D_nbgnd")
 
 [node name="Spike V40" type="Area2D" parent="." unique_id=1081297817]
-position = Vector2(5053, 680.0002)
+position = Vector2(5058, 686.0002)
+scale = Vector2(0.8, 0.8)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -561,8 +562,9 @@ scale = Vector2(7.0161705, 7.824214)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V41" type="Area2D" parent="." unique_id=1481251839]
-position = Vector2(5048, 666.00006)
+position = Vector2(5053, 672.00006)
 rotation = 0.62133723
+scale = Vector2(0.8, 0.8)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -577,8 +579,9 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V42" type="Area2D" parent="." unique_id=28557076]
-position = Vector2(5004, 666)
-rotation = -0.49741885
+position = Vector2(5009, 672)
+rotation = -0.2617994
+scale = Vector2(0.8, 0.8)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -1132,7 +1135,8 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V87" type="Area2D" parent="." unique_id=1356481960]
-position = Vector2(6196, 1026)
+position = Vector2(6190, 1031)
+scale = Vector2(0.8, 0.8)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -1147,7 +1151,7 @@ scale = Vector2(7.0161705, 7.824214)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V88" type="Area2D" parent="." unique_id=758976641]
-position = Vector2(6198, 1011)
+position = Vector2(6197.0005, 1022.00024)
 rotation = 0.62133723
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -1163,7 +1167,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V89" type="Area2D" parent="." unique_id=1410853352]
-position = Vector2(6185, 996)
+position = Vector2(6187, 1003.0001)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -1179,7 +1183,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V90" type="Area2D" parent="." unique_id=1935527468]
-position = Vector2(6132, 1008.00024)
+position = Vector2(6135, 1014.99994)
 rotation = -0.39095375
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -1194,41 +1198,9 @@ position = Vector2(-6.092046, -22.699984)
 scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
-[node name="Spike V91" type="Area2D" parent="." unique_id=1279071877]
-position = Vector2(6198, 1011)
-rotation = 0.62133723
-script = ExtResource("4_oosxx")
-metadata/_edit_group_ = true
-
-[node name="Sprite2D" type="Sprite2D" parent="Spike V91" unique_id=1761636352]
-position = Vector2(-4.862177, -23.36223)
-scale = Vector2(1.9461045, 2.3523605)
-texture = ExtResource("6_0xh8k")
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Spike V91" unique_id=108804423]
-position = Vector2(-6.092046, -22.699984)
-scale = Vector2(3.90735, 4.077654)
-polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
-
-[node name="Spike V92" type="Area2D" parent="." unique_id=1572761433]
-position = Vector2(6185, 996)
-rotation = 0.24958208
-script = ExtResource("4_oosxx")
-metadata/_edit_group_ = true
-
-[node name="Sprite2D" type="Sprite2D" parent="Spike V92" unique_id=1367168663]
-position = Vector2(-4.862177, -23.36223)
-scale = Vector2(1.9461045, 2.3523605)
-texture = ExtResource("6_0xh8k")
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Spike V92" unique_id=1494114128]
-position = Vector2(-6.092046, -22.699984)
-scale = Vector2(3.90735, 4.077654)
-polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
-
 [node name="Spike V93" type="Area2D" parent="." unique_id=1184173832]
-position = Vector2(6132, 1008.00024)
-rotation = -0.39095375
+position = Vector2(6151.9995, 1006)
+rotation = -0.2617994
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -10675,8 +10647,6 @@ texture = ExtResource("13_mgveq")
 [connection signal="body_entered" from="Spike V88" to="Spike V88" method="_on_body_entered"]
 [connection signal="body_entered" from="Spike V89" to="Spike V89" method="_on_body_entered"]
 [connection signal="body_entered" from="Spike V90" to="Spike V90" method="_on_body_entered"]
-[connection signal="body_entered" from="Spike V91" to="Spike V91" method="_on_body_entered"]
-[connection signal="body_entered" from="Spike V92" to="Spike V92" method="_on_body_entered"]
 [connection signal="body_entered" from="Spike V93" to="Spike V93" method="_on_body_entered"]
 [connection signal="body_entered" from="Spike V94" to="Spike V94" method="_on_body_entered"]
 [connection signal="body_entered" from="Spike V95" to="Spike V95" method="_on_body_entered"]
