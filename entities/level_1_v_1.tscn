@@ -10617,6 +10617,7 @@ position = Vector2(997.0156, 196.08383)
 scale = Vector2(5.07028, 5.1971197)
 texture = ExtResource("13_mgveq")
 
+[connection signal="child_entered_tree" from="player" to="player" method="_on_child_entered_tree"]
 [connection signal="body_entered" from="Spike V21" to="Spike V21" method="_on_body_entered"]
 [connection signal="body_entered" from="Spike V22" to="Spike V22" method="_on_body_entered"]
 [connection signal="body_entered" from="Spike V24" to="Spike V24" method="_on_body_entered"]
@@ -11183,6 +11184,7 @@ texture = ExtResource("13_mgveq")
 [connection signal="body_entered" from="Spike V563" to="Spike V563" method="_on_body_entered"]
 [connection signal="body_entered" from="Spike V564" to="Spike V564" method="_on_body_entered"]
 [connection signal="body_entered" from="Spike V565" to="Spike V565" method="_on_body_entered"]
+[connection signal="child_entered_tree" from="small bat v1" to="player" method="_on_small_bat_v_1_child_entered_tree"]
 [connection signal="body_entered" from="Spike V566" to="Spike V566" method="_on_body_entered"]
 [connection signal="body_entered" from="Spike V567" to="Spike V567" method="_on_body_entered"]
 [connection signal="body_entered" from="Spike V568" to="Spike V568" method="_on_body_entered"]

@@ -407,6 +407,6 @@ debug_color = Color(0, 0.57254905, 0.81960785, 0.41960785)
 [connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
 [connection signal="timeout" from="attacking" to="." method="_on_attacking_timeout"]
 [connection signal="timeout" from="attack_again" to="." method="_on_attack_again_timeout"]
-[connection signal="body_entered" from="attacking_col2" to="." method="_on_area_2d_body_entered"]
 [connection signal="body_entered" from="attacking_col2" to="." method="_on_attacking_col_2_body_entered"]
+[connection signal="body_entered" from="attacking_col2" to="." method="_on_area_2d_body_entered"]
 [connection signal="area_entered" from="player_hit_box" to="." method="_on_player_hit_box_area_entered"]

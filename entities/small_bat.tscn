@@ -22,13 +22,13 @@ animations = [{
 "texture": ExtResource("4_yasyp")
 }],
 "loop": true,
-"name": &"default",
+"name": &"flying",
 "speed": 8.0
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_jral0"]
-radius = 14.0
-height = 36.0
+radius = 13.0
+height = 32.0
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_mpl22"]
 radius = 14.0
@@ -42,8 +42,9 @@ script = ExtResource("1_e02mq")
 position = Vector2(1, -1)
 scale = Vector2(0.58719134, 0.58010566)
 sprite_frames = SubResource("SpriteFrames_jral0")
-autoplay = "default"
-frame_progress = 0.35539266
+animation = &"flying"
+autoplay = "flying"
+frame_progress = 0.86130184
 offset = Vector2(0, -28.945)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=87436523]
@@ -53,7 +54,7 @@ shape = SubResource("CapsuleShape2D_jral0")
 [node name="hit_box" type="Area2D" parent="." unique_id=1577047948]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="hit_box" unique_id=1420074478]
-position = Vector2(-6, -17)
+position = Vector2(-5, -18)
 shape = SubResource("CapsuleShape2D_mpl22")
 debug_color = Color(0, 0.5331776, 0.98196226, 0.41960785)
 

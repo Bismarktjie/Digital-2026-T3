@@ -16,6 +16,7 @@ var start_position = Vector2(96, 160)
 var attacking = false
 var can_attack = true
 
+signal kill_bat
 
 func _physics_process(delta: float) -> void:
 	# Add gravity
@@ -106,7 +107,7 @@ func _on_attacking_col_2_body_entered(body: Node2D) -> void:
 	print("bat has collided with player")
 	if body is Small_Bat and attacking: #player is swinging at bat
 		print("bat has been hit") 
-		queue_free()# Replace with function body.
+		#queue_free()# Replace with function body.
 	elif body is Small_Bat and not attacking: #player not attacking, player has been hit
 		print("demon has hit player")
 	
@@ -117,6 +118,7 @@ func _on_player_hit_box_area_entered(area: Area2D) -> void:
 	print(attacking)
 	if area == bat and attacking: #player is swinging at bat
 		print("bat has been hit") # Replace with function body.
+		kill_bat.emit()
 	elif area == bat and not attacking: #player not attacking, player has been hit
 		print("demon has hit player")
 	#respawn() # Replace with function body. # Replace with function body.
