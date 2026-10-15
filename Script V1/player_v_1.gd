@@ -23,6 +23,7 @@ signal kill_bat
 
 func _physics_process(delta: float) -> void:
 	run_time += delta
+	@warning_ignore("integer_division")
 	var minutes := int(run_time) / 60
 	var seconds := int(run_time) % 60
 	var millis := int((run_time - int(run_time)) * 1000)
@@ -31,7 +32,6 @@ func _physics_process(delta: float) -> void:
 	# Add gravity
 	if not is_on_floor():
 		velocity += get_gravity() * delta
-
 	if knockback_timer > 0:
 		knockback_timer -= delta
 		move_and_slide()
@@ -65,15 +65,15 @@ func _physics_process(delta: float) -> void:
 		
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
-
+	if not attacking:
+			if not is_on_floor():
+				animated_sprite_2d.play("jump")
+			elif abs(velocity.x) > 1:
+				animated_sprite_2d.play("run")
+			else:
+				animated_sprite_2d.play("idle")
 	# Handle ground animations (only play when not attacking)
-	if not attacking: #and not is_on_floor():
-		if not is_on_floor():
-			animated_sprite_2d.play("jump")
-		elif abs(velocity.x) > 1:
-			animated_sprite_2d.play("run")
-		else:
-			animated_sprite_2d.play("idle")
+# Handle ground animations (only play when not attacking)
 
 	move_and_slide()
 	
@@ -86,7 +86,7 @@ func _physics_process(delta: float) -> void:
 		respawn()
 
 func respawn():
-	position = start_position
+	global_position = spawn_position
 
 # Signal callbacks connected to $attack_timer and $attack_again_timer
 
@@ -132,14 +132,17 @@ func _on_player_hit_box_area_entered(area: Area2D) -> void:
 	if area.get_parent() is Small_Bat and attacking: #player is swinging at bat
 		print("bat has been hit") # Replace with function body.
 		kill_bat.emit()
+
+
 	elif area.get_parent() is Small_Bat and not attacking: #player not attacking, player has been hit
 		print("demon has hit player")
 		(area.get_parent() as Small_Bat).knockback(global_position)
 		take_hit(area.global_position)
-	#respawn() # Replace with function body. # Replace with function body.
+
 
 signal health_changed(new_health: int)
 
+@onready var spawn_position: Vector2 = start_position
 @export var max_health: int = 100
 var health: int = max_health:
 	set(value):
@@ -148,15 +151,21 @@ var health: int = max_health:
 func take_hit(from_position: Vector2, amount: int = 10, knock_h: float = 100.0, knock_v: float = -250.0) -> void:
 	health -= amount
 	print("take_hit called, health is now ", health)
+	$AnimatedSprite2D.play("hurt")
 	health_bar.set_health(health)
 	if health <= 0:
 		health = 100
 		health_bar.set_health(health)
 		run_time = 0.0
 		respawn()
+		get_tree().call_group("enemies", "reset_enemy")
 	var dir := signf(global_position.x - from_position.x)
 	velocity = Vector2(dir * knock_h, knock_v)
 	knockback_timer = 0.5
 
 
 @onready var health_bar = $Camera2D/CanvasLayer/ProgressBar
+
+func heal(amount: int) -> void:
+	health += amount
+	health_bar.set_health(health)
