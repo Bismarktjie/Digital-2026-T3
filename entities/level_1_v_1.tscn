@@ -2520,7 +2520,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Platform V56" type="StaticBody2D" parent="." unique_id=1051345625]
-position = Vector2(16001, 985)
+position = Vector2(15922, 1015)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -2534,7 +2534,7 @@ position = Vector2(-7.666668, 0)
 shape = SubResource("RectangleShape2D_nbgnd")
 
 [node name="Spike V148" type="Area2D" parent="." unique_id=552472814]
-position = Vector2(15919, 968)
+position = Vector2(15840, 998)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -2549,7 +2549,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V181" type="Area2D" parent="." unique_id=309704162]
-position = Vector2(15933, 966)
+position = Vector2(15854, 996)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -2565,7 +2565,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V182" type="Area2D" parent="." unique_id=1147018236]
-position = Vector2(15871, 966)
+position = Vector2(15792, 996)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -2581,7 +2581,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V183" type="Area2D" parent="." unique_id=2145606054]
-position = Vector2(15885, 964)
+position = Vector2(15806, 994)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -2597,7 +2597,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V184" type="Area2D" parent="." unique_id=1495969041]
-position = Vector2(16099, 966)
+position = Vector2(16020, 996)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -2612,7 +2612,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V185" type="Area2D" parent="." unique_id=298557977]
-position = Vector2(16113, 964)
+position = Vector2(16034, 994)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -2628,7 +2628,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V187" type="Area2D" parent="." unique_id=143334676]
-position = Vector2(16065, 962)
+position = Vector2(15986, 992)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -3063,7 +3063,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Platform V62" type="StaticBody2D" parent="." unique_id=661676313]
-position = Vector2(15088, 1107)
+position = Vector2(14976, 1131)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -3077,7 +3077,7 @@ position = Vector2(34.25, 3)
 shape = SubResource("RectangleShape2D_0xh8k")
 
 [node name="Platform V63" type="StaticBody2D" parent="." unique_id=1073215543]
-position = Vector2(16890, 879)
+position = Vector2(16850, 903)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -3091,7 +3091,7 @@ position = Vector2(-7.666668, 0)
 shape = SubResource("RectangleShape2D_nbgnd")
 
 [node name="Spike V211" type="Area2D" parent="." unique_id=339813036]
-position = Vector2(15221, 1100)
+position = Vector2(15109, 1124)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -3106,7 +3106,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V215" type="Area2D" parent="." unique_id=12809397]
-position = Vector2(16808, 862)
+position = Vector2(16768, 886)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -3121,7 +3121,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V212" type="Area2D" parent="." unique_id=1519281417]
-position = Vector2(15235, 1098)
+position = Vector2(15123, 1122)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -3137,7 +3137,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V216" type="Area2D" parent="." unique_id=1266126790]
-position = Vector2(16822, 860)
+position = Vector2(16782, 884)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -3153,7 +3153,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V213" type="Area2D" parent="." unique_id=1667303795]
-position = Vector2(15173, 1098)
+position = Vector2(15061, 1122)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -3169,7 +3169,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V217" type="Area2D" parent="." unique_id=674859474]
-position = Vector2(16760, 860)
+position = Vector2(16720, 884)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -3185,7 +3185,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V214" type="Area2D" parent="." unique_id=45745684]
-position = Vector2(15187, 1096)
+position = Vector2(15075, 1120)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -3201,7 +3201,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V218" type="Area2D" parent="." unique_id=829847187]
-position = Vector2(16774, 858)
+position = Vector2(16734, 882)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -3217,7 +3217,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V219" type="Area2D" parent="." unique_id=2107235098]
-position = Vector2(16988, 860)
+position = Vector2(16948, 884)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -3232,7 +3232,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V220" type="Area2D" parent="." unique_id=913229382]
-position = Vector2(17002, 858)
+position = Vector2(16962, 882)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -3248,7 +3248,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V221" type="Area2D" parent="." unique_id=2118575084]
-position = Vector2(16940, 858)
+position = Vector2(16900, 882)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -3264,7 +3264,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V222" type="Area2D" parent="." unique_id=1673260008]
-position = Vector2(16954, 856)
+position = Vector2(16914, 880)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -3674,7 +3674,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Platform V66" type="StaticBody2D" parent="." unique_id=1218904309]
-position = Vector2(17856, 774.99976)
+position = Vector2(17896, 795)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -3688,7 +3688,7 @@ position = Vector2(34.25, 3)
 shape = SubResource("RectangleShape2D_0xh8k")
 
 [node name="Spike V241" type="Area2D" parent="." unique_id=765023930]
-position = Vector2(17989, 767.99976)
+position = Vector2(18029, 788)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -3703,7 +3703,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V242" type="Area2D" parent="." unique_id=1993117217]
-position = Vector2(18003, 765.99976)
+position = Vector2(18043, 786)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -3719,7 +3719,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V243" type="Area2D" parent="." unique_id=1263753788]
-position = Vector2(17941, 765.99976)
+position = Vector2(17981, 786)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -3735,7 +3735,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V244" type="Area2D" parent="." unique_id=519838654]
-position = Vector2(17955, 763.99976)
+position = Vector2(17995, 784)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -3751,7 +3751,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Platform V67" type="StaticBody2D" parent="." unique_id=2142892365]
-position = Vector2(18463, 766.99976)
+position = Vector2(18432, 757)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -3765,7 +3765,7 @@ position = Vector2(12.6666565, -14)
 shape = SubResource("RectangleShape2D_oosxx")
 
 [node name="Spike V245" type="Area2D" parent="." unique_id=135099029]
-position = Vector2(18536, 767.99976)
+position = Vector2(18505, 758)
 scale = Vector2(1, 0.9)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -3781,7 +3781,7 @@ scale = Vector2(7.0161705, 7.824214)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V246" type="Area2D" parent="." unique_id=788093566]
-position = Vector2(18538, 752.99976)
+position = Vector2(18507, 743)
 rotation = 0.62133723
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -3797,7 +3797,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V247" type="Area2D" parent="." unique_id=2115657831]
-position = Vector2(18525, 737.99976)
+position = Vector2(18494, 728)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -3813,7 +3813,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V248" type="Area2D" parent="." unique_id=40253447]
-position = Vector2(18472, 750)
+position = Vector2(18441, 740.00024)
 rotation = -0.39095375
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -3829,7 +3829,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V249" type="Area2D" parent="." unique_id=1217827363]
-position = Vector2(18538, 752.99976)
+position = Vector2(18507, 743)
 rotation = 0.62133723
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -3845,7 +3845,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V250" type="Area2D" parent="." unique_id=1014189425]
-position = Vector2(18525, 737.99976)
+position = Vector2(18494, 728)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -3861,7 +3861,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V251" type="Area2D" parent="." unique_id=1385821620]
-position = Vector2(18472, 750)
+position = Vector2(18441, 740.00024)
 rotation = -0.39095375
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -3954,7 +3954,7 @@ scale = Vector2(5.07028, 5.1971197)
 texture = ExtResource("13_mgveq")
 
 [node name="Platform V68" type="StaticBody2D" parent="." unique_id=493975559]
-position = Vector2(17474, 822)
+position = Vector2(17442, 855)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -3968,7 +3968,7 @@ position = Vector2(-8, -6)
 shape = SubResource("RectangleShape2D_nbgnd")
 
 [node name="Spike V252" type="Area2D" parent="." unique_id=975308447]
-position = Vector2(17603, 827)
+position = Vector2(17571, 860)
 scale = Vector2(1, 0.9)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -3984,7 +3984,7 @@ scale = Vector2(7.0161705, 7.824214)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V253" type="Area2D" parent="." unique_id=1383026750]
-position = Vector2(17608, 812)
+position = Vector2(17576, 845)
 rotation = 0.62133723
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -4000,7 +4000,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V254" type="Area2D" parent="." unique_id=415517556]
-position = Vector2(17595, 797)
+position = Vector2(17563, 830)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -4016,7 +4016,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V255" type="Area2D" parent="." unique_id=433970083]
-position = Vector2(17542, 809.00024)
+position = Vector2(17510, 842.00024)
 rotation = -0.39095375
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -4032,7 +4032,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V256" type="Area2D" parent="." unique_id=1185209559]
-position = Vector2(17608, 812)
+position = Vector2(17576, 845)
 rotation = 0.62133723
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -4048,7 +4048,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V257" type="Area2D" parent="." unique_id=293493726]
-position = Vector2(17595, 797)
+position = Vector2(17563, 830)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -4064,7 +4064,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V258" type="Area2D" parent="." unique_id=1561416401]
-position = Vector2(17542, 809.00024)
+position = Vector2(17510, 842.00024)
 rotation = -0.39095375
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -4080,7 +4080,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V259" type="Area2D" parent="." unique_id=581204751]
-position = Vector2(17376, 821)
+position = Vector2(17344, 854)
 scale = Vector2(1, 0.9)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -4096,7 +4096,7 @@ scale = Vector2(7.0161705, 7.824214)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V260" type="Area2D" parent="." unique_id=884956974]
-position = Vector2(17378, 806)
+position = Vector2(17346, 839)
 rotation = 0.62133723
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -4112,7 +4112,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V261" type="Area2D" parent="." unique_id=151406634]
-position = Vector2(17365, 791)
+position = Vector2(17333, 824)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -4128,7 +4128,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V262" type="Area2D" parent="." unique_id=279496478]
-position = Vector2(17312, 803.00024)
+position = Vector2(17280, 836.00024)
 rotation = -0.39095375
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -4144,7 +4144,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V263" type="Area2D" parent="." unique_id=1228134428]
-position = Vector2(17378, 806)
+position = Vector2(17346, 839)
 rotation = 0.62133723
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -4160,7 +4160,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V264" type="Area2D" parent="." unique_id=931340367]
-position = Vector2(17365, 791)
+position = Vector2(17333, 824)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -4176,7 +4176,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V265" type="Area2D" parent="." unique_id=1856551266]
-position = Vector2(17312, 803.00024)
+position = Vector2(17280, 836.00024)
 rotation = -0.39095375
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -4409,7 +4409,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Platform V26" type="StaticBody2D" parent="." unique_id=1603410572]
-position = Vector2(37785, -940)
+position = Vector2(37312, -737)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -4423,7 +4423,7 @@ position = Vector2(46, 10)
 shape = SubResource("RectangleShape2D_134sd")
 
 [node name="Platform V71" type="StaticBody2D" parent="." unique_id=2105048902]
-position = Vector2(25450, 99)
+position = Vector2(25258, 139)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -4437,7 +4437,7 @@ position = Vector2(-7.666668, 0)
 shape = SubResource("RectangleShape2D_nbgnd")
 
 [node name="Spike V278" type="Area2D" parent="." unique_id=1041855119]
-position = Vector2(25368, 82)
+position = Vector2(25176, 122)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -4452,7 +4452,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V279" type="Area2D" parent="." unique_id=1035115442]
-position = Vector2(25382, 80)
+position = Vector2(25190, 120)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -4468,7 +4468,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V280" type="Area2D" parent="." unique_id=351630375]
-position = Vector2(25320, 80)
+position = Vector2(25128, 120)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -4484,7 +4484,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V281" type="Area2D" parent="." unique_id=1582935060]
-position = Vector2(25334, 78)
+position = Vector2(25142, 118)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -4500,7 +4500,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V282" type="Area2D" parent="." unique_id=1815212798]
-position = Vector2(25548, 80)
+position = Vector2(25356, 120)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -4515,7 +4515,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V283" type="Area2D" parent="." unique_id=520058930]
-position = Vector2(25562, 78)
+position = Vector2(25370, 118)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -4531,7 +4531,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V284" type="Area2D" parent="." unique_id=349675349]
-position = Vector2(25500, 78)
+position = Vector2(25308, 118)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -4547,7 +4547,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V285" type="Area2D" parent="." unique_id=2079528692]
-position = Vector2(25514, 76)
+position = Vector2(25322, 116)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -4920,7 +4920,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Platform V76" type="StaticBody2D" parent="." unique_id=480814231]
-position = Vector2(24221, 222)
+position = Vector2(24144, 222)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -4934,7 +4934,7 @@ position = Vector2(34.25, 3)
 shape = SubResource("RectangleShape2D_0xh8k")
 
 [node name="Spike V305" type="Area2D" parent="." unique_id=1615413002]
-position = Vector2(24354, 215)
+position = Vector2(24277, 215)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -4949,7 +4949,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V306" type="Area2D" parent="." unique_id=615038638]
-position = Vector2(24368, 213)
+position = Vector2(24291, 213)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -4965,7 +4965,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V307" type="Area2D" parent="." unique_id=1274263637]
-position = Vector2(24306, 213)
+position = Vector2(24229, 213)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -4981,7 +4981,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V308" type="Area2D" parent="." unique_id=673842111]
-position = Vector2(24320, 211)
+position = Vector2(24243, 211)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -4997,7 +4997,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Platform V77" type="StaticBody2D" parent="." unique_id=1154284959]
-position = Vector2(24704, 139)
+position = Vector2(24608, 187)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -5011,7 +5011,7 @@ position = Vector2(34.25, 3)
 shape = SubResource("RectangleShape2D_0xh8k")
 
 [node name="Spike V309" type="Area2D" parent="." unique_id=693798621]
-position = Vector2(24837, 132)
+position = Vector2(24741, 180)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -5026,7 +5026,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V310" type="Area2D" parent="." unique_id=1069504344]
-position = Vector2(24851, 130)
+position = Vector2(24755, 178)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5042,7 +5042,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V311" type="Area2D" parent="." unique_id=854547738]
-position = Vector2(24789, 130)
+position = Vector2(24693, 178)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5058,7 +5058,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V312" type="Area2D" parent="." unique_id=1359036066]
-position = Vector2(24803, 128)
+position = Vector2(24707, 176)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5074,7 +5074,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Platform V78" type="StaticBody2D" parent="." unique_id=193697822]
-position = Vector2(26196, 6)
+position = Vector2(25874, 111)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -5088,7 +5088,7 @@ position = Vector2(-7.666668, 0)
 shape = SubResource("RectangleShape2D_nbgnd")
 
 [node name="Spike V313" type="Area2D" parent="." unique_id=1400010457]
-position = Vector2(26114, -11)
+position = Vector2(25792, 94)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -5103,7 +5103,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V314" type="Area2D" parent="." unique_id=739881192]
-position = Vector2(26128, -13)
+position = Vector2(25806, 92)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5119,7 +5119,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V315" type="Area2D" parent="." unique_id=1132055966]
-position = Vector2(26066, -13)
+position = Vector2(25744, 92)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5135,7 +5135,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V316" type="Area2D" parent="." unique_id=1063779800]
-position = Vector2(26080, -15)
+position = Vector2(25758, 90)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5151,7 +5151,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V317" type="Area2D" parent="." unique_id=1242167275]
-position = Vector2(26294, -13)
+position = Vector2(25972, 92)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -5166,7 +5166,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V318" type="Area2D" parent="." unique_id=774245485]
-position = Vector2(26308, -15)
+position = Vector2(25986, 90)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5182,7 +5182,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V319" type="Area2D" parent="." unique_id=368435115]
-position = Vector2(26246, -15)
+position = Vector2(25924, 90)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5198,7 +5198,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V320" type="Area2D" parent="." unique_id=626321137]
-position = Vector2(26260, -17)
+position = Vector2(25938, 88)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5291,7 +5291,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Platform V80" type="StaticBody2D" parent="." unique_id=1556440827]
-position = Vector2(27439, -108)
+position = Vector2(26984, 27)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -5305,7 +5305,7 @@ position = Vector2(34.25, 3)
 shape = SubResource("RectangleShape2D_0xh8k")
 
 [node name="Spike V325" type="Area2D" parent="." unique_id=38603678]
-position = Vector2(27572, -115)
+position = Vector2(27117, 20)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -5320,7 +5320,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V326" type="Area2D" parent="." unique_id=864216828]
-position = Vector2(27586, -117)
+position = Vector2(27131, 18)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5336,7 +5336,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V327" type="Area2D" parent="." unique_id=1111224122]
-position = Vector2(27524, -117)
+position = Vector2(27069, 18)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5352,7 +5352,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V328" type="Area2D" parent="." unique_id=162460018]
-position = Vector2(27538, -119)
+position = Vector2(27083, 16)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5368,7 +5368,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Platform V81" type="StaticBody2D" parent="." unique_id=1103001611]
-position = Vector2(28046, -116)
+position = Vector2(27577, 12)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -5382,7 +5382,7 @@ position = Vector2(12.6666565, -14)
 shape = SubResource("RectangleShape2D_oosxx")
 
 [node name="Spike V329" type="Area2D" parent="." unique_id=1800374650]
-position = Vector2(28119, -115)
+position = Vector2(27650, 13)
 scale = Vector2(1, 0.6)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5398,7 +5398,7 @@ scale = Vector2(7.0161705, 7.824214)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V330" type="Area2D" parent="." unique_id=698527760]
-position = Vector2(28121, -130)
+position = Vector2(27652, -2)
 rotation = 0.62133723
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5414,7 +5414,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V331" type="Area2D" parent="." unique_id=183459434]
-position = Vector2(28108, -145)
+position = Vector2(27639, -17)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5430,7 +5430,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V332" type="Area2D" parent="." unique_id=1018571265]
-position = Vector2(28055, -132.99957)
+position = Vector2(27586, -4.9995804)
 rotation = -0.39095375
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5446,7 +5446,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V333" type="Area2D" parent="." unique_id=23930183]
-position = Vector2(28121, -130)
+position = Vector2(27652, -2)
 rotation = 0.62133723
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5462,7 +5462,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V334" type="Area2D" parent="." unique_id=970766150]
-position = Vector2(28061, -134.99951)
+position = Vector2(27592, -6.9995117)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5478,7 +5478,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V335" type="Area2D" parent="." unique_id=386957709]
-position = Vector2(28055, -132.99957)
+position = Vector2(27586, -4.9995804)
 rotation = -0.39095375
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5494,7 +5494,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Platform V82" type="StaticBody2D" parent="." unique_id=116364180]
-position = Vector2(26906, -41)
+position = Vector2(26536, 87)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -5508,7 +5508,7 @@ position = Vector2(-8, -6)
 shape = SubResource("RectangleShape2D_nbgnd")
 
 [node name="Spike V336" type="Area2D" parent="." unique_id=1574631326]
-position = Vector2(27035, -36)
+position = Vector2(26665, 92)
 scale = Vector2(1, 0.7)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5524,7 +5524,7 @@ scale = Vector2(7.0161705, 7.824214)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V337" type="Area2D" parent="." unique_id=1508267345]
-position = Vector2(27040, -51)
+position = Vector2(26670, 77)
 rotation = 0.62133723
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5540,7 +5540,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V338" type="Area2D" parent="." unique_id=1919032185]
-position = Vector2(27027, -66)
+position = Vector2(26657, 62)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5556,7 +5556,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V339" type="Area2D" parent="." unique_id=1379144990]
-position = Vector2(26974, -53.999584)
+position = Vector2(26604, 74.000404)
 rotation = -0.39095375
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5572,7 +5572,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V340" type="Area2D" parent="." unique_id=2044479942]
-position = Vector2(27040, -51)
+position = Vector2(26670, 77)
 rotation = 0.62133723
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5588,7 +5588,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V341" type="Area2D" parent="." unique_id=1226693801]
-position = Vector2(27027, -66)
+position = Vector2(26657, 62)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5604,7 +5604,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V342" type="Area2D" parent="." unique_id=1577627059]
-position = Vector2(26974, -53.999584)
+position = Vector2(26604, 74.000404)
 rotation = -0.39095375
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5620,7 +5620,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V343" type="Area2D" parent="." unique_id=966087251]
-position = Vector2(26808, -42)
+position = Vector2(26438, 86)
 scale = Vector2(1, 0.9)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5636,7 +5636,7 @@ scale = Vector2(7.0161705, 7.824214)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V344" type="Area2D" parent="." unique_id=451058493]
-position = Vector2(26810, -57)
+position = Vector2(26440, 71)
 rotation = 0.62133723
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5652,7 +5652,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V345" type="Area2D" parent="." unique_id=1011120897]
-position = Vector2(26797, -72)
+position = Vector2(26427, 56)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5668,7 +5668,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V346" type="Area2D" parent="." unique_id=2004731526]
-position = Vector2(26744, -59.999584)
+position = Vector2(26374, 68.000404)
 rotation = -0.39095375
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5684,7 +5684,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V347" type="Area2D" parent="." unique_id=562009114]
-position = Vector2(26810, -57)
+position = Vector2(26440, 71)
 rotation = 0.62133723
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5700,7 +5700,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V348" type="Area2D" parent="." unique_id=205325548]
-position = Vector2(26797, -72)
+position = Vector2(26427, 56)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5716,7 +5716,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V349" type="Area2D" parent="." unique_id=1159810086]
-position = Vector2(26744, -59.999584)
+position = Vector2(26374, 68.000404)
 rotation = -0.39095375
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5732,7 +5732,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Platform V83" type="StaticBody2D" parent="." unique_id=1882913838]
-position = Vector2(28754, -196)
+position = Vector2(28285, -68)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -5746,7 +5746,7 @@ position = Vector2(-7.666668, 0)
 shape = SubResource("RectangleShape2D_nbgnd")
 
 [node name="Spike V350" type="Area2D" parent="." unique_id=229805261]
-position = Vector2(28672, -213)
+position = Vector2(28203, -85)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -5761,7 +5761,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V351" type="Area2D" parent="." unique_id=123167453]
-position = Vector2(28686, -215)
+position = Vector2(28217, -87)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5777,7 +5777,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V352" type="Area2D" parent="." unique_id=468979805]
-position = Vector2(28624, -215)
+position = Vector2(28155, -87)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5793,7 +5793,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V353" type="Area2D" parent="." unique_id=1796009597]
-position = Vector2(28638, -217)
+position = Vector2(28169, -89)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5809,7 +5809,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V354" type="Area2D" parent="." unique_id=150542810]
-position = Vector2(28852, -215)
+position = Vector2(28383, -87)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -5824,7 +5824,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V355" type="Area2D" parent="." unique_id=237786586]
-position = Vector2(28866, -217)
+position = Vector2(28397, -89)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5840,7 +5840,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V356" type="Area2D" parent="." unique_id=2086144906]
-position = Vector2(28804, -217)
+position = Vector2(28335, -89)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5856,7 +5856,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V357" type="Area2D" parent="." unique_id=386071941]
-position = Vector2(28818, -219)
+position = Vector2(28349, -91)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5872,7 +5872,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Platform V84" type="StaticBody2D" parent="." unique_id=638722736]
-position = Vector2(29099, -271)
+position = Vector2(28704, -136)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -5886,7 +5886,7 @@ position = Vector2(34.25, 3)
 shape = SubResource("RectangleShape2D_0xh8k")
 
 [node name="Spike V358" type="Area2D" parent="." unique_id=614464113]
-position = Vector2(29232, -278)
+position = Vector2(28837, -143)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -5901,7 +5901,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V359" type="Area2D" parent="." unique_id=884996074]
-position = Vector2(29246, -280)
+position = Vector2(28851, -145)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5917,7 +5917,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V360" type="Area2D" parent="." unique_id=969617167]
-position = Vector2(29184, -280)
+position = Vector2(28789, -145)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5933,7 +5933,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V361" type="Area2D" parent="." unique_id=82077648]
-position = Vector2(29198, -282)
+position = Vector2(28803, -147)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5949,7 +5949,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Platform V85" type="StaticBody2D" parent="." unique_id=757956113]
-position = Vector2(29952, -455)
+position = Vector2(29492, -293)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -5963,7 +5963,7 @@ position = Vector2(34.25, 3)
 shape = SubResource("RectangleShape2D_0xh8k")
 
 [node name="Spike V362" type="Area2D" parent="." unique_id=1863658906]
-position = Vector2(30096, -457)
+position = Vector2(29636, -295)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -5978,7 +5978,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V363" type="Area2D" parent="." unique_id=1073433414]
-position = Vector2(30110, -459)
+position = Vector2(29650, -297)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -5994,7 +5994,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V364" type="Area2D" parent="." unique_id=1289166397]
-position = Vector2(30037, -464)
+position = Vector2(29577, -302)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6010,7 +6010,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V365" type="Area2D" parent="." unique_id=1657043475]
-position = Vector2(30051, -466)
+position = Vector2(29591, -304)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6026,7 +6026,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Platform V86" type="StaticBody2D" parent="." unique_id=837942787]
-position = Vector2(30331, -538)
+position = Vector2(29920, -367)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -6040,7 +6040,7 @@ position = Vector2(34.25, 3)
 shape = SubResource("RectangleShape2D_0xh8k")
 
 [node name="Spike V366" type="Area2D" parent="." unique_id=1770544594]
-position = Vector2(30577, -586)
+position = Vector2(30166, -415)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -6055,7 +6055,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V367" type="Area2D" parent="." unique_id=1146973759]
-position = Vector2(30591, -588)
+position = Vector2(30180, -417)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6071,7 +6071,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V368" type="Area2D" parent="." unique_id=1305036717]
-position = Vector2(30416, -547)
+position = Vector2(30005, -376)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6087,7 +6087,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V369" type="Area2D" parent="." unique_id=1332442338]
-position = Vector2(30543, -590)
+position = Vector2(30132, -419)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6103,7 +6103,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Platform V87" type="StaticBody2D" parent="." unique_id=1525414953]
-position = Vector2(30820, -635)
+position = Vector2(30409, -464)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -6117,7 +6117,7 @@ position = Vector2(34.25, 3)
 shape = SubResource("RectangleShape2D_0xh8k")
 
 [node name="Spike V370" type="Area2D" parent="." unique_id=1487055660]
-position = Vector2(30953, -642)
+position = Vector2(30542, -471)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -6132,7 +6132,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V371" type="Area2D" parent="." unique_id=1789245305]
-position = Vector2(30967, -644)
+position = Vector2(30556, -473)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6148,7 +6148,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V372" type="Area2D" parent="." unique_id=851377456]
-position = Vector2(30905, -644)
+position = Vector2(30494, -473)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6164,7 +6164,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V373" type="Area2D" parent="." unique_id=1643849231]
-position = Vector2(30919, -646)
+position = Vector2(30508, -475)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6180,7 +6180,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Platform V88" type="StaticBody2D" parent="." unique_id=847670540]
-position = Vector2(31308, -705)
+position = Vector2(30897, -534)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -6194,7 +6194,7 @@ position = Vector2(12.6666565, -14)
 shape = SubResource("RectangleShape2D_oosxx")
 
 [node name="Spike V374" type="Area2D" parent="." unique_id=870538826]
-position = Vector2(31381, -704)
+position = Vector2(30970, -533)
 scale = Vector2(1, 0.6)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6210,7 +6210,7 @@ scale = Vector2(7.0161705, 7.824214)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V375" type="Area2D" parent="." unique_id=428481924]
-position = Vector2(31383, -719)
+position = Vector2(30972, -548)
 rotation = 0.62133723
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6226,7 +6226,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V376" type="Area2D" parent="." unique_id=916826966]
-position = Vector2(31370, -734)
+position = Vector2(30959, -563)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6242,7 +6242,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V377" type="Area2D" parent="." unique_id=481637599]
-position = Vector2(31317, -721.99963)
+position = Vector2(30906, -550.99963)
 rotation = -0.39095375
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6258,7 +6258,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V378" type="Area2D" parent="." unique_id=2018502244]
-position = Vector2(31383, -719)
+position = Vector2(30972, -548)
 rotation = 0.62133723
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6274,7 +6274,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V379" type="Area2D" parent="." unique_id=891864705]
-position = Vector2(31317.998, -721.9995)
+position = Vector2(30906.998, -550.9995)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6290,7 +6290,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V380" type="Area2D" parent="." unique_id=1517849480]
-position = Vector2(31317, -721.99963)
+position = Vector2(30906, -550.99963)
 rotation = -0.39095375
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6306,7 +6306,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Platform V89" type="StaticBody2D" parent="." unique_id=1734493012]
-position = Vector2(31771, -773)
+position = Vector2(31364, -605)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -6320,7 +6320,7 @@ position = Vector2(34.25, 3)
 shape = SubResource("RectangleShape2D_0xh8k")
 
 [node name="Spike V381" type="Area2D" parent="." unique_id=1571838799]
-position = Vector2(31904, -780)
+position = Vector2(31497, -612)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -6335,7 +6335,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V382" type="Area2D" parent="." unique_id=301416334]
-position = Vector2(31918, -782)
+position = Vector2(31511, -614)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6351,7 +6351,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V383" type="Area2D" parent="." unique_id=1332170529]
-position = Vector2(31856, -782)
+position = Vector2(31449, -614)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6367,7 +6367,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V384" type="Area2D" parent="." unique_id=1607652772]
-position = Vector2(31870, -784)
+position = Vector2(31463, -616)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6383,7 +6383,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Platform V90" type="StaticBody2D" parent="." unique_id=2004327385]
-position = Vector2(29535, -346)
+position = Vector2(29075, -184)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -6397,7 +6397,7 @@ position = Vector2(34.25, 3)
 shape = SubResource("RectangleShape2D_0xh8k")
 
 [node name="Spike V385" type="Area2D" parent="." unique_id=1989609479]
-position = Vector2(29668, -353)
+position = Vector2(29208, -191)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -6412,7 +6412,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V386" type="Area2D" parent="." unique_id=2137407898]
-position = Vector2(29682, -355)
+position = Vector2(29222, -193)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6428,7 +6428,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V387" type="Area2D" parent="." unique_id=868836449]
-position = Vector2(29620, -355)
+position = Vector2(29160, -193)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6444,7 +6444,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V388" type="Area2D" parent="." unique_id=32688016]
-position = Vector2(29634, -357)
+position = Vector2(29174, -195)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6460,7 +6460,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Platform V91" type="StaticBody2D" parent="." unique_id=1155228937]
-position = Vector2(33645, -826)
+position = Vector2(33244, -705.9995)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -6474,7 +6474,7 @@ position = Vector2(-7.666668, 0)
 shape = SubResource("RectangleShape2D_nbgnd")
 
 [node name="Platform V92" type="StaticBody2D" parent="." unique_id=857939194]
-position = Vector2(33032, -806)
+position = Vector2(32631, -685.9995)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -6488,7 +6488,7 @@ position = Vector2(34.25, 3)
 shape = SubResource("RectangleShape2D_0xh8k")
 
 [node name="Platform V93" type="StaticBody2D" parent="." unique_id=1362552994]
-position = Vector2(34083, -881)
+position = Vector2(33682, -760.9995)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -6512,7 +6512,7 @@ scale = Vector2(7.0161705, 7.824214)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V390" type="Area2D" parent="." unique_id=766041472]
-position = Vector2(34158, -895)
+position = Vector2(33746, -767.99756)
 rotation = 0.62133723
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6528,7 +6528,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V391" type="Area2D" parent="." unique_id=241185864]
-position = Vector2(34145, -910)
+position = Vector2(33738, -799.99854)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6544,7 +6544,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V392" type="Area2D" parent="." unique_id=928998895]
-position = Vector2(34091.996, -897.99963)
+position = Vector2(33690.996, -777.99915)
 rotation = -0.39095375
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6560,7 +6560,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V393" type="Area2D" parent="." unique_id=2031896012]
-position = Vector2(34158, -895)
+position = Vector2(33730, -792.00146)
 rotation = 0.62133723
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6576,7 +6576,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V394" type="Area2D" parent="." unique_id=1543892243]
-position = Vector2(34145, -910)
+position = Vector2(33721.996, -800)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6592,7 +6592,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V395" type="Area2D" parent="." unique_id=1591712675]
-position = Vector2(34091.996, -897.99963)
+position = Vector2(33690.996, -777.99915)
 rotation = -0.39095375
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6608,7 +6608,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V396" type="Area2D" parent="." unique_id=427548738]
-position = Vector2(32321, -812)
+position = Vector2(31920, -691.9995)
 rotation = -0.49741885
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6624,7 +6624,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V397" type="Area2D" parent="." unique_id=373863467]
-position = Vector2(32326, -799.9995)
+position = Vector2(31925, -679.999)
 rotation = 0.37350047
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6640,7 +6640,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V398" type="Area2D" parent="." unique_id=1197996869]
-position = Vector2(33143, -821.00024)
+position = Vector2(32742, -700.99976)
 rotation = -0.49741885
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6656,7 +6656,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V399" type="Area2D" parent="." unique_id=1147604989]
-position = Vector2(33148, -808.99976)
+position = Vector2(32747, -688.99927)
 rotation = 0.37350047
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6672,7 +6672,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V400" type="Area2D" parent="." unique_id=130021021]
-position = Vector2(33774, -821)
+position = Vector2(33373, -700.9995)
 scale = Vector2(1, 0.8)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6688,7 +6688,7 @@ scale = Vector2(7.0161705, 7.824214)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V401" type="Area2D" parent="." unique_id=2098456112]
-position = Vector2(33779, -836)
+position = Vector2(33378, -715.9995)
 rotation = 0.62133723
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6704,7 +6704,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V402" type="Area2D" parent="." unique_id=1027999467]
-position = Vector2(33766, -851)
+position = Vector2(33365, -730.9995)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6720,7 +6720,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V403" type="Area2D" parent="." unique_id=1121009196]
-position = Vector2(33712.996, -838.99963)
+position = Vector2(33311.996, -718.99915)
 rotation = -0.39095375
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6736,7 +6736,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V404" type="Area2D" parent="." unique_id=783957083]
-position = Vector2(33779, -836)
+position = Vector2(33378, -715.9995)
 rotation = 0.62133723
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6752,7 +6752,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V405" type="Area2D" parent="." unique_id=229789238]
-position = Vector2(33766, -851)
+position = Vector2(33365, -730.9995)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6768,7 +6768,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V406" type="Area2D" parent="." unique_id=1446512415]
-position = Vector2(33712.996, -838.99963)
+position = Vector2(33311.996, -718.99915)
 rotation = -0.39095375
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6784,7 +6784,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V407" type="Area2D" parent="." unique_id=1227473882]
-position = Vector2(33547, -827)
+position = Vector2(33146, -706.9995)
 scale = Vector2(1, 0.7)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6800,7 +6800,7 @@ scale = Vector2(7.0161705, 7.824214)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V408" type="Area2D" parent="." unique_id=186624019]
-position = Vector2(33549, -842)
+position = Vector2(33148, -721.9995)
 rotation = 0.62133723
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6816,7 +6816,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V409" type="Area2D" parent="." unique_id=2110791467]
-position = Vector2(33536, -857)
+position = Vector2(33135, -736.9995)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6832,7 +6832,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V410" type="Area2D" parent="." unique_id=1015996828]
-position = Vector2(33482.996, -844.99963)
+position = Vector2(33081.996, -724.99915)
 rotation = -0.39095375
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6848,7 +6848,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V411" type="Area2D" parent="." unique_id=1892946408]
-position = Vector2(33549, -842)
+position = Vector2(33148, -721.9995)
 rotation = 0.62133723
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6864,7 +6864,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V412" type="Area2D" parent="." unique_id=1856841626]
-position = Vector2(33536, -857)
+position = Vector2(33135, -736.9995)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6880,7 +6880,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V413" type="Area2D" parent="." unique_id=821763764]
-position = Vector2(33482.996, -844.99963)
+position = Vector2(33081.996, -724.99915)
 rotation = -0.39095375
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6896,7 +6896,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Platform V94" type="StaticBody2D" parent="." unique_id=23140751]
-position = Vector2(34754.004, -891)
+position = Vector2(34314.004, -795)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -6910,7 +6910,7 @@ position = Vector2(-7.666668, 0)
 shape = SubResource("RectangleShape2D_nbgnd")
 
 [node name="Spike V414" type="Area2D" parent="." unique_id=1747008308]
-position = Vector2(34883.004, -886)
+position = Vector2(34443.004, -790)
 scale = Vector2(1, 0.6)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6926,7 +6926,7 @@ scale = Vector2(7.0161705, 7.824214)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V415" type="Area2D" parent="." unique_id=1567285766]
-position = Vector2(34888.004, -901)
+position = Vector2(34448.004, -805)
 rotation = 0.62133723
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6942,7 +6942,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V416" type="Area2D" parent="." unique_id=1949535262]
-position = Vector2(34875.004, -916)
+position = Vector2(34435.004, -820)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6958,7 +6958,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V417" type="Area2D" parent="." unique_id=619256080]
-position = Vector2(34822, -903.99963)
+position = Vector2(34382, -807.99963)
 rotation = -0.39095375
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6974,7 +6974,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V418" type="Area2D" parent="." unique_id=643565068]
-position = Vector2(34888.004, -901)
+position = Vector2(34448.004, -805)
 rotation = 0.62133723
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -6990,7 +6990,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V419" type="Area2D" parent="." unique_id=808253541]
-position = Vector2(34843, -913.9999)
+position = Vector2(34403, -817.9999)
 rotation = -0.2617994
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7006,7 +7006,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V420" type="Area2D" parent="." unique_id=1540915601]
-position = Vector2(34822, -903.99963)
+position = Vector2(34382, -807.99963)
 rotation = -0.39095375
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7022,7 +7022,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V421" type="Area2D" parent="." unique_id=1862252580]
-position = Vector2(34656.004, -892)
+position = Vector2(34216.004, -796)
 scale = Vector2(1, 0.8)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7038,7 +7038,7 @@ scale = Vector2(7.0161705, 7.824214)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V422" type="Area2D" parent="." unique_id=83077934]
-position = Vector2(34658.004, -907)
+position = Vector2(34218.004, -811)
 rotation = 0.62133723
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7054,7 +7054,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V423" type="Area2D" parent="." unique_id=1121280266]
-position = Vector2(34645.004, -922)
+position = Vector2(34205.004, -826)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7070,7 +7070,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V424" type="Area2D" parent="." unique_id=2144829780]
-position = Vector2(34592, -909.99963)
+position = Vector2(34152, -813.99963)
 rotation = -0.39095375
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7086,7 +7086,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V425" type="Area2D" parent="." unique_id=1612698963]
-position = Vector2(34658.004, -907)
+position = Vector2(34218.004, -811)
 rotation = 0.62133723
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7102,7 +7102,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V426" type="Area2D" parent="." unique_id=164936110]
-position = Vector2(34603.004, -922)
+position = Vector2(34163.004, -826)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -7117,7 +7117,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V427" type="Area2D" parent="." unique_id=602585335]
-position = Vector2(34592, -909.99963)
+position = Vector2(34152, -813.99963)
 rotation = -0.39095375
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7133,7 +7133,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Platform V95" type="StaticBody2D" parent="." unique_id=2120037480]
-position = Vector2(35259.004, -937)
+position = Vector2(34819.004, -841)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -7147,7 +7147,7 @@ position = Vector2(-7.666668, 0)
 shape = SubResource("RectangleShape2D_nbgnd")
 
 [node name="Spike V428" type="Area2D" parent="." unique_id=40076540]
-position = Vector2(35177.004, -954)
+position = Vector2(34737.004, -858)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -7162,7 +7162,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V429" type="Area2D" parent="." unique_id=1573813254]
-position = Vector2(35191.004, -956)
+position = Vector2(34751.004, -860)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7178,7 +7178,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V430" type="Area2D" parent="." unique_id=1346875368]
-position = Vector2(35129.004, -956)
+position = Vector2(34689.004, -860)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7194,7 +7194,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V431" type="Area2D" parent="." unique_id=49253393]
-position = Vector2(35143.004, -958)
+position = Vector2(34703.004, -862)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7210,7 +7210,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V432" type="Area2D" parent="." unique_id=1649519323]
-position = Vector2(35357.004, -956)
+position = Vector2(34917.004, -860)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -7225,7 +7225,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V433" type="Area2D" parent="." unique_id=325478715]
-position = Vector2(35371.004, -958)
+position = Vector2(34931.004, -862)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7241,7 +7241,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V434" type="Area2D" parent="." unique_id=1461860460]
-position = Vector2(35309.004, -958)
+position = Vector2(34869.004, -862)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7257,7 +7257,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V435" type="Area2D" parent="." unique_id=20455204]
-position = Vector2(35323.004, -960)
+position = Vector2(34883.004, -864)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7273,7 +7273,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Platform V96" type="StaticBody2D" parent="." unique_id=803257130]
-position = Vector2(35833.004, -957)
+position = Vector2(35393.004, -861)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -7287,7 +7287,7 @@ position = Vector2(-7.666668, 0)
 shape = SubResource("RectangleShape2D_nbgnd")
 
 [node name="Spike V436" type="Area2D" parent="." unique_id=709816173]
-position = Vector2(35751.004, -974)
+position = Vector2(35311.004, -878)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -7302,7 +7302,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V437" type="Area2D" parent="." unique_id=1657731856]
-position = Vector2(35765.004, -976)
+position = Vector2(35325.004, -880)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7318,7 +7318,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V438" type="Area2D" parent="." unique_id=769982057]
-position = Vector2(35703.004, -976)
+position = Vector2(35263.004, -880)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7334,7 +7334,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V439" type="Area2D" parent="." unique_id=925691399]
-position = Vector2(35717.004, -978)
+position = Vector2(35277.004, -882)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7350,7 +7350,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V440" type="Area2D" parent="." unique_id=705080096]
-position = Vector2(35931.004, -976)
+position = Vector2(35491.004, -880)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -7365,7 +7365,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V441" type="Area2D" parent="." unique_id=1783926924]
-position = Vector2(35945.004, -978)
+position = Vector2(35505.004, -882)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7381,7 +7381,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V442" type="Area2D" parent="." unique_id=480439337]
-position = Vector2(35883.004, -978)
+position = Vector2(35443.004, -882)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7397,7 +7397,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V443" type="Area2D" parent="." unique_id=494419339]
-position = Vector2(35897.004, -980)
+position = Vector2(35457.004, -884)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7413,7 +7413,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Platform V97" type="StaticBody2D" parent="." unique_id=2099346482]
-position = Vector2(32605, -805)
+position = Vector2(32204, -684.9995)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -7427,7 +7427,7 @@ position = Vector2(34.25, 3)
 shape = SubResource("RectangleShape2D_0xh8k")
 
 [node name="Spike V444" type="Area2D" parent="." unique_id=2011165474]
-position = Vector2(32727, -817)
+position = Vector2(32326, -696.9995)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -7442,7 +7442,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V445" type="Area2D" parent="." unique_id=1243187889]
-position = Vector2(32741, -819)
+position = Vector2(32340, -698.9995)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7458,7 +7458,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V446" type="Area2D" parent="." unique_id=2044816749]
-position = Vector2(32690, -814)
+position = Vector2(32289, -693.9995)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7474,7 +7474,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V447" type="Area2D" parent="." unique_id=1939548661]
-position = Vector2(32704, -816)
+position = Vector2(32303, -695.9995)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7490,7 +7490,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Platform V98" type="StaticBody2D" parent="." unique_id=1064094868]
-position = Vector2(36208, -1001)
+position = Vector2(35768, -905)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -7504,7 +7504,7 @@ position = Vector2(34.25, 3)
 shape = SubResource("RectangleShape2D_0xh8k")
 
 [node name="Spike V448" type="Area2D" parent="." unique_id=1768588839]
-position = Vector2(36341, -1008)
+position = Vector2(35901, -912)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -7519,7 +7519,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V449" type="Area2D" parent="." unique_id=830323931]
-position = Vector2(36355, -1010)
+position = Vector2(35915, -914)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7535,7 +7535,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V450" type="Area2D" parent="." unique_id=1858671625]
-position = Vector2(36293, -1010)
+position = Vector2(35853, -914)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7551,7 +7551,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V451" type="Area2D" parent="." unique_id=362765787]
-position = Vector2(36307, -1012)
+position = Vector2(35867, -916)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7567,7 +7567,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Platform V99" type="StaticBody2D" parent="." unique_id=1166824419]
-position = Vector2(36647, -1084)
+position = Vector2(36144, -941)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -7581,7 +7581,7 @@ position = Vector2(34.25, 3)
 shape = SubResource("RectangleShape2D_0xh8k")
 
 [node name="Spike V452" type="Area2D" parent="." unique_id=1971476962]
-position = Vector2(36780, -1091)
+position = Vector2(36269, -972)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -7596,7 +7596,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V453" type="Area2D" parent="." unique_id=766978236]
-position = Vector2(36794, -1093)
+position = Vector2(36283, -974)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7612,7 +7612,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V454" type="Area2D" parent="." unique_id=81669667]
-position = Vector2(36732, -1093)
+position = Vector2(36221, -974)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7628,7 +7628,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V455" type="Area2D" parent="." unique_id=226731628]
-position = Vector2(36746, -1095)
+position = Vector2(36235, -976)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7644,7 +7644,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Platform V100" type="StaticBody2D" parent="." unique_id=1706864]
-position = Vector2(32217, -796)
+position = Vector2(31816, -675.9995)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -7658,7 +7658,7 @@ position = Vector2(34.25, 3)
 shape = SubResource("RectangleShape2D_0xh8k")
 
 [node name="Platform V101" type="StaticBody2D" parent="." unique_id=1119902460]
-position = Vector2(37310, -1124)
+position = Vector2(36690, -988)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -7672,7 +7672,7 @@ position = Vector2(-7.666668, 0)
 shape = SubResource("RectangleShape2D_nbgnd")
 
 [node name="Spike V456" type="Area2D" parent="." unique_id=110642343]
-position = Vector2(37228, -1141)
+position = Vector2(36608, -1005)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -7687,7 +7687,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V457" type="Area2D" parent="." unique_id=790938097]
-position = Vector2(37242, -1143)
+position = Vector2(36622, -1007)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7703,7 +7703,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V458" type="Area2D" parent="." unique_id=2107727423]
-position = Vector2(37180, -1143)
+position = Vector2(36560, -1007)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7719,7 +7719,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V459" type="Area2D" parent="." unique_id=258629847]
-position = Vector2(37194, -1145)
+position = Vector2(36574, -1009)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7735,7 +7735,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V460" type="Area2D" parent="." unique_id=1110424033]
-position = Vector2(37408, -1143)
+position = Vector2(36788, -1007)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -7750,7 +7750,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V461" type="Area2D" parent="." unique_id=978658734]
-position = Vector2(37422, -1145)
+position = Vector2(36802, -1009)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7766,7 +7766,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V462" type="Area2D" parent="." unique_id=1897901631]
-position = Vector2(37360, -1145)
+position = Vector2(36740, -1009)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7782,7 +7782,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V463" type="Area2D" parent="." unique_id=690943128]
-position = Vector2(37374, -1147)
+position = Vector2(36754, -1011)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7814,11 +7814,11 @@ position = Vector2(9711, 1555)
 scale = Vector2(2, 2)
 
 [node name="small bat v7" parent="." unique_id=1282019225 instance=ExtResource("8_0rof7")]
-position = Vector2(15990, 810)
+position = Vector2(15911, 840)
 scale = Vector2(2, 2)
 
 [node name="small bat v8" parent="." unique_id=1892698682 instance=ExtResource("8_0rof7")]
-position = Vector2(17461, 631)
+position = Vector2(17429, 664)
 scale = Vector2(2, 2)
 
 [node name="small bat v9" parent="." unique_id=376949988 instance=ExtResource("8_0rof7")]
@@ -7826,31 +7826,31 @@ position = Vector2(21291, 480)
 scale = Vector2(2, 2)
 
 [node name="small bat v10" parent="." unique_id=212430699 instance=ExtResource("8_0rof7")]
-position = Vector2(25423, -72)
+position = Vector2(25231, -32)
 scale = Vector2(2, 2)
 
 [node name="small bat v11" parent="." unique_id=2139400223 instance=ExtResource("8_0rof7")]
-position = Vector2(28070, -336)
+position = Vector2(27601, -208)
 scale = Vector2(2, 2)
 
 [node name="small bat v12" parent="." unique_id=1892459546 instance=ExtResource("8_0rof7")]
-position = Vector2(31105, -811)
+position = Vector2(30694, -640)
 scale = Vector2(2, 2)
 
 [node name="small bat v13" parent="." unique_id=603054567 instance=ExtResource("8_0rof7")]
-position = Vector2(32926, -920)
+position = Vector2(32525, -799.9995)
 scale = Vector2(2, 2)
 
 [node name="small bat v14" parent="." unique_id=2070253258 instance=ExtResource("8_0rof7")]
-position = Vector2(35244.004, -1136)
+position = Vector2(34804.004, -1040)
 scale = Vector2(2, 2)
 
 [node name="small bat v15" parent="." unique_id=1517834135 instance=ExtResource("8_0rof7")]
-position = Vector2(37297, -1312)
+position = Vector2(36677, -1176)
 scale = Vector2(2, 2)
 
 [node name="Spike V573" type="Area2D" parent="." unique_id=1294080060]
-position = Vector2(34159, -892)
+position = Vector2(33746, -767.9995)
 scale = Vector2(1, 0.8)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7874,7 +7874,7 @@ position = Vector2(29832, -1864)
 scale = Vector2(2, 2)
 
 [node name="small bat v30" parent="." unique_id=1642599205 instance=ExtResource("8_0rof7")]
-position = Vector2(34120, -1608)
+position = Vector2(34128, -1584)
 scale = Vector2(2, 2)
 
 [node name="small bat v32" parent="." unique_id=1534994048 instance=ExtResource("8_0rof7")]
@@ -7888,7 +7888,7 @@ scale = Vector2(2, 2)
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=1165043578]
 
 [node name="Platform V127" type="StaticBody2D" parent="." unique_id=587563559]
-position = Vector2(18846, 706.99976)
+position = Vector2(18824, 714.99976)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -7902,7 +7902,7 @@ position = Vector2(34.25, 3)
 shape = SubResource("RectangleShape2D_0xh8k")
 
 [node name="Spike V572" type="Area2D" parent="." unique_id=450428714]
-position = Vector2(18979, 699.99976)
+position = Vector2(18957, 707.99976)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -7917,7 +7917,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V574" type="Area2D" parent="." unique_id=567462591]
-position = Vector2(18993, 697.99976)
+position = Vector2(18971, 705.99976)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7933,7 +7933,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V575" type="Area2D" parent="." unique_id=2116458385]
-position = Vector2(18931, 697.99976)
+position = Vector2(18909, 705.99976)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -7949,7 +7949,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V576" type="Area2D" parent="." unique_id=323507224]
-position = Vector2(18950.002, 696)
+position = Vector2(18928.002, 704)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -8117,7 +8117,7 @@ scale = Vector2(0.32500243, 0.8395791)
 texture = ExtResource("10_ibt6c")
 
 [node name="FinishLine" type="Area2D" parent="." unique_id=258025043]
-position = Vector2(37921, -963)
+position = Vector2(37448, -760)
 script = ExtResource("11_m1cmi")
 metadata/_edit_group_ = true
 
@@ -8130,7 +8130,7 @@ scale = Vector2(0.5853673, 1.0585215)
 texture = ExtResource("12_m1cmi")
 
 [node name="Platform V102" type="StaticBody2D" parent="." unique_id=726047264]
-position = Vector2(15432, 1059)
+position = Vector2(15336, 1075)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -8144,7 +8144,7 @@ position = Vector2(34.25, 3)
 shape = SubResource("RectangleShape2D_0xh8k")
 
 [node name="Spike V226" type="Area2D" parent="." unique_id=214784839]
-position = Vector2(15565, 1052)
+position = Vector2(15469, 1068)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -8159,7 +8159,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V464" type="Area2D" parent="." unique_id=1752678073]
-position = Vector2(15579, 1050)
+position = Vector2(15483, 1066)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -8175,7 +8175,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V465" type="Area2D" parent="." unique_id=1998739743]
-position = Vector2(15517, 1050)
+position = Vector2(15421, 1066)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -8191,7 +8191,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V466" type="Area2D" parent="." unique_id=1419338438]
-position = Vector2(15531, 1048)
+position = Vector2(15435, 1064)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -8207,7 +8207,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Platform V103" type="StaticBody2D" parent="." unique_id=1616172095]
-position = Vector2(16288, 931)
+position = Vector2(16209, 961)
 scale = Vector2(3, 0.25)
 metadata/_edit_group_ = true
 
@@ -8221,7 +8221,7 @@ position = Vector2(34.25, 3)
 shape = SubResource("RectangleShape2D_0xh8k")
 
 [node name="Spike V467" type="Area2D" parent="." unique_id=1548807882]
-position = Vector2(16421, 924)
+position = Vector2(16342, 954)
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
 
@@ -8236,7 +8236,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V468" type="Area2D" parent="." unique_id=1629905515]
-position = Vector2(16435, 922)
+position = Vector2(16356, 952)
 rotation = 0.24958208
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -8252,7 +8252,7 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V469" type="Area2D" parent="." unique_id=1331785907]
-position = Vector2(16373, 922)
+position = Vector2(16294, 952)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
@@ -8268,7 +8268,7 @@ scale = Vector2(4.5839796, 5.0186496)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Spike V470" type="Area2D" parent="." unique_id=491905744]
-position = Vector2(16387, 920)
+position = Vector2(16308, 950)
 rotation = -0.12391838
 script = ExtResource("4_oosxx")
 metadata/_edit_group_ = true
