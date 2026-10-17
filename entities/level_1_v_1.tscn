@@ -9,6 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://5mpnu40r22o2" path="res://entities/small_bat.tscn" id="8_0rof7"]
 [ext_resource type="Script" uid="uid://bg1vtethrg0xp" path="res://Script V1/checkpoint_1.gd" id="9_6ko13"]
 [ext_resource type="Texture2D" uid="uid://dg2yjvavutjc" path="res://Textures/Sprites/Sprites/without_outline/7bf51cd8-a380-4823-b804-7d7924ae0ff2.png" id="10_ibt6c"]
+[ext_resource type="Texture2D" uid="uid://cmmdhkq5wrhde" path="res://Textures/Sprites/Sprites/without_outline/green flag.png" id="10_vq2tl"]
 [ext_resource type="Script" uid="uid://dgq85uwm4vn73" path="res://entities/finish_line.gd" id="11_m1cmi"]
 [ext_resource type="Texture2D" uid="uid://bbiqvtiw60re2" path="res://Textures/Sprites/Sprites/TitleScreen_stuff/032d1a3f-d6b6-4a2f-85a2-239b792615c5.png" id="12_m1cmi"]
 [ext_resource type="Texture2D" uid="uid://c7k3nyeb5rmhx" path="res://Textures/Sprites/Sprites/Enviroment/pixilart-drawing (4).png" id="13_mgveq"]
@@ -29,7 +30,7 @@ size = Vector2(2468, 148)
 size = Vector2(246, 132)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_x7mj5"]
-size = Vector2(34, 1145)
+size = Vector2(34, 377)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_gafwf"]
 size = Vector2(745, 20)
@@ -37,7 +38,7 @@ size = Vector2(745, 20)
 [node name="Level 1 V1" type="Node2D" unique_id=165306160]
 
 [node name="player" parent="." unique_id=483559747 instance=ExtResource("1_134sd")]
-position = Vector2(112, 320.00006)
+position = Vector2(112.000015, 336)
 rotation = -0.0005451031
 
 [node name="Background" parent="." unique_id=1827103222 instance=ExtResource("4_fmm8o")]
@@ -7965,12 +7966,13 @@ scale = Vector2(3.90735, 4.077654)
 polygon = PackedVector2Array(-0.072722435, -8.767298, -5.0901937, 5.5791907, 5.162903, 5.5791855)
 
 [node name="Checkpoint_1" type="Area2D" parent="." unique_id=1780026726]
-position = Vector2(10648, 1584)
+position = Vector2(10664, 1576)
 script = ExtResource("9_6ko13")
+green_flag_texture = ExtResource("10_vq2tl")
 metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Checkpoint_1" unique_id=785155911]
-position = Vector2(0, -483.5)
+position = Vector2(0, -99.5)
 shape = SubResource("RectangleShape2D_x7mj5")
 
 [node name="Sprite2D" type="Sprite2D" parent="Checkpoint_1" unique_id=1716033055]
@@ -8103,16 +8105,16 @@ position = Vector2(-7.666668, 0)
 shape = SubResource("RectangleShape2D_nbgnd")
 
 [node name="Checkpoint_2" type="Area2D" parent="." unique_id=1161592193]
-position = Vector2(19598, 660)
+position = Vector2(19624, 952)
 script = ExtResource("9_6ko13")
-metadata/_edit_group_ = true
+green_flag_texture = ExtResource("10_vq2tl")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Checkpoint_2" unique_id=1314706742]
-position = Vector2(0, -483.5)
+position = Vector2(-8, -408)
 shape = SubResource("RectangleShape2D_x7mj5")
 
 [node name="Sprite2D" type="Sprite2D" parent="Checkpoint_2" unique_id=49570636]
-position = Vector2(16.000366, -80.00002)
+position = Vector2(8.000367, -384)
 scale = Vector2(0.32500243, 0.8395791)
 texture = ExtResource("10_ibt6c")
 
